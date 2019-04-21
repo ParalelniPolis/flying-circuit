@@ -7,8 +7,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export && touch out/.nojekyll",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "export": "npm run build && next export && npm run create:cname && touch out/.nojekyll",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create:cname": "touch out/CNAME && echo 'flyingcircuit.com' >> out/CNAME"
   },
   "repository": {
     "type": "git",
