@@ -1,0 +1,35 @@
+{
+  "name": "flying-circuit",
+  "version": "0.1.0",
+  "description": "Website of Hackatoshi's Flying Circuit",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export && touch out/.nojekyll",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParalelniPolis/flying-circuit.git"
+  },
+  "keywords": [
+    "paralelni",
+    "polis",
+    "flying",
+    "circuit",
+    "hackathon"
+  ],
+  "author": "Paralelní Polis <info@paralelnipolis.cz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ParalelniPolis/flying-circuit/issues"
+  },
+  "homepage": "https://github.com/ParalelniPolis/flying-circuit#readme",
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
