@@ -34,6 +34,7 @@ export function About() {
           width: 100%;
           height: 300px;
           z-index: 102;
+          top: 150px;
         }
       `}</style>
     </div>
