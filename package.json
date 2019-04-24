@@ -28,8 +28,10 @@
     "url": "https://github.com/ParalelniPolis/flying-circuit/issues"
   },
   "homepage": "https://github.com/ParalelniPolis/flying-circuit#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "next": "^8.1.0",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
