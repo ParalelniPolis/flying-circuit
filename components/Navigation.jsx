@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+
 export function Navigation() {
+
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      console.log("hi")
+    }
+  })
   return (
     <header>
       <img src="/static/img/institute-presents.png" />
@@ -29,7 +37,7 @@ export function Navigation() {
       </nav>
       <style jsx>{`
         header {
-          background-color: grey;
+          background-color: #484848;
           position: fixed;
           top: 0;
           left: 0;
@@ -37,6 +45,7 @@ export function Navigation() {
           height: 60px;
           display: flex;
           align-items: center;
+          z-index: 200;
         }
 
         header * {
