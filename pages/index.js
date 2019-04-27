@@ -7,7 +7,7 @@ import { Partners } from "../components/Partners";
 import { Schedule } from "../components/Schedule";
 import { Section } from "../components/Section";
 import { Speakers } from "../components/Speakers";
-import Link from "next/link";
+import { Footer } from "../components/Footer";
 import { Tickets } from "../components/Tickets";
 
 export default () => (
@@ -35,40 +35,7 @@ export default () => (
     <Section id="sponsors">
       <Sponsors />
     </Section>
-    <footer>
-      <div className="container">
-        <div className="row join-us">
-          <Link href="/join-us">
-            <button className="button-secondary">Join us!</button>
-          </Link>
-        </div>
-        <div className="row">
-          <div className="copyright">Copyright &copy; {new Date().getFullYear()} Paralelní Polis</div>
-        </div>
-        <div className="row">{"#nobs #whistleblowing\n"}</div>
-        <div className="row">
-          <div className="social-icons">
-            <ul>
-              <li>FB</li>
-              <li>TW</li>
-              <li>IG</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <style jsx>{`
-      .social-icons ul li {
-        display: inline;
-        padding: 5px;
-      }
-      .join-us {
-        margin-bottom: 30px;
-      }
-      footer {
-        text-align: center;
-      }
-    `}</style>
+    <Footer />
     <style global jsx>{`
       body {
         background-color: black;

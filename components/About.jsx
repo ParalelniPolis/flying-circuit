@@ -1,8 +1,9 @@
 import Link from "next/link";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export function About() {
   return (
-    <div className="about-section">
+    <div className="about-section" id="manifesto">
       <div className="container">
         <div className="row manifesto">
           <h3 className="manifesto-title">Manifesto</h3>
@@ -39,14 +40,14 @@ export function About() {
           <Link href="/code-of-conduct">
             <button className="btn">Code of conduct</button>
           </Link>
-          <Link href="#tickets">
-            <button className="btn">Join us!</button>
-          </Link>
+          <AnchorLink offset="100" href="#tickets">
+            <button>Join us!</button>
+          </AnchorLink>
         </div>
       </div>
       <style jsx>{`
         .about-section {
-          margin-top: 50px;
+          margin-top: 300px;
           height: 150vh;
           width: 100%;
         }

@@ -1,15 +1,12 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 export function Hero() {
-  function scrollDown() {
-    if (typeof window !== "undefined") {
-      window.scrollTo(0, 1400);
-    }
-  }
   return (
     <div className="header-graphics">
       <img className="flowers" src="/static/img/flowers.png" />
       <img className="head" src="/static/img/head.png" />
       <img className="flying-circus-text" src="/static/img/flying-circus-text.png" />
-      <button className="scroll-down-btn" onClick={scrollDown}>scroll down (toto bude ikonka)</button>
+      <AnchorLink offset='100' href='#manifesto'><button className="scroll-down-btn">scroll down (toto bude ikonka)</button></AnchorLink>
       <style jsx>{`
         .header-graphics {
           margin-bottom: 100px;
