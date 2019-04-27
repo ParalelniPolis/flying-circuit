@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "npm run build && next export && npm run create:cname && touch out/.nojekyll",
+    "deploy": "git subtree push --prefix out origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1",
     "create:cname": "touch out/CNAME && echo 'flyingcircuit.com' >> out/CNAME"
   },

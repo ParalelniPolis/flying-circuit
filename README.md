@@ -13,10 +13,22 @@ npm run dev
 
 ## Deploy
 
-WIP!
+First, build the static site:
 
 ```bash
 npm run export
+git subtree push --prefix out origin gh-pages
+```
+
+Second, deploy to gh-pages:
+
+```bash
+npm run deploy
+```
+
+or manually using this command:
+
+```bash
 git subtree push --prefix out origin gh-pages
 ```
 
