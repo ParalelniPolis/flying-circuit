@@ -30,6 +30,7 @@
   "homepage": "https://github.com/ParalelniPolis/flying-circuit#readme",
   "dependencies": {},
   "devDependencies": {
+    "@zeit/next-css": "^1.0.1",
     "next": "^8.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",

@@ -34,26 +34,11 @@ class MyDocument extends Document {
           <meta property="twitter:description" content={seo.description} />
           {/* TODO: add image that will be displayed on Twitter when sharing */}
           {/* <meta property="twitter:image" content={...} /> */}
-
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
         </Head>
         <body>
           <Main />
           <NextScript />
         </body>
-        <style global jsx>{`
-          * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-          }
-          body {
-            background-color: black;
-            font-family: sans-serif;
-            margin-top: 80px;
-            padding: 30px;
-          }
-        `}</style>
       </Html>
     );
   }

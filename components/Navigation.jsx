@@ -8,54 +8,55 @@ export function Navigation() {
   });
   return (
     <header>
-      <div className="container">
-        <img src="/static/img/institute-presents.png" />
-        <nav>
-          <ul>
-            <li>
-              <a href="#about">ABOUT</a>
+      <nav className="navbar">
+        <div className="container">
+          <ul className="navbar-list">
+            <li className="navbar-item">
+              <img src="/static/img/institute-presents.png" />
             </li>
             <li>
-              <a href="#speakers">SPEAKERS</a>
+              <a className="navbar-link" href="#about">
+                ABOUT
+              </a>
             </li>
             <li>
-              <a href="#schedule">SCHEDULE</a>
+              <a className="navbar-link" href="#speakers">
+                SPEAKERS
+              </a>
             </li>
             <li>
-              <a href="#tickets">TICKETS</a>
+              <a className="navbar-link" href="#schedule">
+                SCHEDULE
+              </a>
             </li>
             <li>
-              <a href="#partners">PARTNERS</a>
+              <a className="navbar-link" href="#tickets">
+                TICKETS
+              </a>
             </li>
             <li>
-              <a href="#organizer">ORGANIZER</a>
+              <a className="navbar-link" href="#partners">
+                PARTNERS
+              </a>
             </li>
             <li>
-              <a href="#newsletter">NEWSLETTER</a>
+              <a className="navbar-link" href="#organizer">
+                ORGANIZER
+              </a>
+            </li>
+            <li>
+              <a className="navbar-link" href="#newsletter">
+                NEWSLETTER
+              </a>
             </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
       <style jsx>{`
         header {
           background-color: #484848;
-          position: fixed;
-          top: 0;
-          left: 0;
-          right: 0;
-          height: 60px;
-          display: flex;
-          align-items: center;
+          height: 80px;
           z-index: 200;
-        }
-
-        header * {
-          display: inline;
-        }
-
-        header > .container {
-          width: 1024px;
-          margin: 0 auto;
         }
 
         header nav ul {
@@ -74,7 +75,7 @@ export function Navigation() {
 
         header li a {
           padding: 1.25rem 0.5rem;
-          font-size: 0.8rem;
+          font-size: 1rem;
           max-width: 140px;
           font-weight: bold;
           text-decoration: none;
@@ -90,7 +91,7 @@ export function Navigation() {
 
         header img {
           height: 45px;
-          margin: 15px 100px 0 0;
+          margin: 7px 100px 0 0;
           padding: 5px;
           float: left;
         }

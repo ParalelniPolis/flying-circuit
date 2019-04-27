@@ -7,7 +7,7 @@ const initialState = {
   message: "",
 };
 
-export function Partners() {
+export function Sponsors() {
   const [state, setState] = useState(initialState);
 
   function updateState(key, value) {
@@ -17,20 +17,20 @@ export function Partners() {
   return (
     <div className="container">
       <div className="row">
-        <h3>Partners</h3>
+        <h3>Sponsors</h3>
         <div className="one-third column speaker-card">
-          <img className="partner-image" src="/static/img/paralelnipolis-logo-white.png" alt="Firstname Lastname" />
+          <img className="sponsor-image" src="/static/img/paralelnipolis-logo-white.png" alt="Firstname Lastname" />
         </div>
         <div className="one-third column speaker-card">
-          <img className="partner-image" src="/static/img/paralelnipolis-logo-white.png" alt="Firstname Lastname" />
+          <img className="sponsor-image" src="/static/img/paralelnipolis-logo-white.png" alt="Firstname Lastname" />
         </div>
         <div className="one-third column speaker-card">
-          <img className="partner-image" src="/static/img/paralelnipolis-logo-white.png" alt="Firstname Lastname" />
+          <img className="sponsor-image" src="/static/img/paralelnipolis-logo-white.png" alt="Firstname Lastname" />
         </div>
       </div>
       <div className="row">
         <button className="btn" onClick={() => updateState("showForm", !state.showForm)}>
-          Become a partner!
+          Become a sponsor!
         </button>
       </div>
       {state.showForm && (
@@ -50,6 +50,7 @@ export function Partners() {
                 onChange={e => updateState("email", e.target.value)}
               />
 
+              <label htmlFor="name-input">Name</label>
               <input
                 className="u-full-width"
                 type="text"
@@ -58,6 +59,7 @@ export function Partners() {
                 onChange={e => updateState("name", e.target.value)}
               />
 
+              <label htmlFor="message-input">Message</label>
               <textarea
                 className="u-full-width"
                 type="text"
@@ -73,7 +75,7 @@ export function Partners() {
       )}
 
       <style jsx>{`
-        .partner-image {
+        .sponsor-image {
           width: 200px;
         }
       `}</style>
