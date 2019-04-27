@@ -34,6 +34,9 @@ class MyDocument extends Document {
           <meta property="twitter:description" content={seo.description} />
           {/* TODO: add image that will be displayed on Twitter when sharing */}
           {/* <meta property="twitter:image" content={...} /> */}
+
+          <link rel="stylesheet" type="text/css" href="/static/styles/normalize.css" />
+          <link rel="stylesheet" type="text/css" href="/static/styles/skeleton.css" />
         </Head>
         <body>
           <Main />

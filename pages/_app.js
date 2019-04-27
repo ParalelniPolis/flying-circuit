@@ -1,7 +1,5 @@
 import React from 'react'
 import App, { Container } from 'next/app'
-import "../styles/normalize.css"
-import "../styles/skeleton.css"
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {

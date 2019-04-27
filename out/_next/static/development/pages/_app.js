@@ -9206,10 +9206,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _styles_normalize_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../styles/normalize.css */ "./styles/normalize.css");
-/* harmony import */ var _styles_normalize_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_styles_normalize_css__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _styles_skeleton_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../styles/skeleton.css */ "./styles/skeleton.css");
-/* harmony import */ var _styles_skeleton_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_styles_skeleton_css__WEBPACK_IMPORTED_MODULE_11__);
 
 
 
@@ -9219,8 +9215,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/michaltakac/Projects/javascript/flying-circuit/pages/_app.js";
-
-
 
 
 
@@ -9244,13 +9238,13 @@ function (_App) {
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_9__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 19
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 20
         },
         __self: this
       })));
@@ -9319,5 +9313,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./","static/runtime/webpack.js","styles"]]]);
+},[["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./","static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_app.js.map
