@@ -1,4 +1,5 @@
 import { useState } from "react";
+import config from "../config";
 
 const initialState = {
   email: "",
@@ -9,9 +10,6 @@ const initialState = {
   submitted: false,
   loading: false,
 };
-
-const GOOGLE_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbzzzic64flcbwKdrxVbS3kIla7TEsPEP6iTAVTn8-WeUK5miuIa/exec";
 
 export function Tickets() {
   const [state, setState] = useState(initialState);
@@ -46,7 +44,7 @@ export function Tickets() {
       updateState({ loading: true });
 
       const res = await fetch(
-        `${GOOGLE_SCRIPT_URL}?name=${encodeURIComponent(state.name)}&email=${encodeURIComponent(
+        `${config.GOOGLE_SCRIPT_URL}?name=${encodeURIComponent(state.name)}&email=${encodeURIComponent(
           state.email
         )}&description=${encodeURIComponent(state.projectDescription)}`
       );
