@@ -1,11 +1,48 @@
+import ParallaxMousemove from "react-parallax-mousemove";
 import { ScrollIcon } from "./ScrollIcon";
 
+// TODO (michal): fix parallax effect (currently not working)
 export function Hero() {
   return (
     <div className="header-graphics">
-      <img className="flowers" src="/static/img/flowers.png" />
-      <img className="head" src="/static/img/head.png" />
-      <img className="flying-circus-text" src="/static/img/hfc-text-color-transparent.png" />
+      <ParallaxMousemove>
+        <ParallaxMousemove.Layer
+          config={{
+            xFactor: 0.5,
+            yFactor: 0.5,
+            springSettings: {
+              stiffness: 50,
+              damping: 30,
+            },
+          }}
+        >
+          <img className="flowers" src="/static/img/flowers.png" />
+        </ParallaxMousemove.Layer>
+        <ParallaxMousemove.Layer
+          config={{
+            xFactor: 0.5,
+            yFactor: 0.5,
+            springSettings: {
+              stiffness: 50,
+              damping: 30,
+            },
+          }}
+        >
+          <img className="head" src="/static/img/head.png" />
+        </ParallaxMousemove.Layer>
+        <ParallaxMousemove.Layer
+          config={{
+            xFactor: 0.5,
+            yFactor: 0.5,
+            springSettings: {
+              stiffness: 50,
+              damping: 40,
+            },
+          }}
+        >
+          <img className="flying-circus-text" src="/static/img/hfc-text-color-transparent.png" />
+        </ParallaxMousemove.Layer>
+      </ParallaxMousemove>
       <div className="scroll-down">
         <ScrollIcon scrollTo="#manifesto" smoothScroll={true} />
       </div>
