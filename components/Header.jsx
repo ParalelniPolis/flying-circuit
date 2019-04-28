@@ -31,6 +31,7 @@ export function Header() {
 
         .polis-logo {
           height: 100px;
+          margin-top: 30px;
         }
 
         .align-left {

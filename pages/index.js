@@ -1,4 +1,4 @@
-import { About } from "../components/About";
+import { Manifesto } from "../components/Manifesto";
 import { Header } from "../components/Header";
 import { Hero } from "../components/Hero";
 import { Sponsors } from "../components/Sponsors";
@@ -14,8 +14,8 @@ export default () => (
   <div>
     <Header />
     <Hero />
-    <Section id="about">
-      <About />
+    <Section id="manifesto">
+      <Manifesto />
     </Section>
     <Section id="speakers">
       <Speakers />

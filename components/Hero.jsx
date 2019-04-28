@@ -1,15 +1,16 @@
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { ScrollIcon } from "./ScrollIcon";
 
 export function Hero() {
   return (
     <div className="header-graphics">
       <img className="flowers" src="/static/img/flowers.png" />
       <img className="head" src="/static/img/head.png" />
-      <img className="flying-circus-text" src="/static/img/flying-circus-text.png" />
-      <AnchorLink offset='100' href='#manifesto'><button className="scroll-down-btn">scroll down (toto bude ikonka)</button></AnchorLink>
+      <img className="flying-circus-text" src="/static/img/hfc-text-color-transparent.png" />
+      <div className="scroll-down">
+        <ScrollIcon scrollTo="#manifesto" smoothScroll={true} />
+      </div>
       <style jsx>{`
         .header-graphics {
-          margin-bottom: 100px;
           text-align: center;
         }
         .flowers {
@@ -31,8 +32,8 @@ export function Hero() {
           top: 150px;
           left: 25%;
         }
-        .scroll-down-btn {
-          margin-top: 50px;
+        .scroll-down {
+          margin-top: 100px;
         }
       `}</style>
     </div>

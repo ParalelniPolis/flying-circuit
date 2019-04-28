@@ -1,9 +1,9 @@
 import Link from "next/link";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-export function About() {
+export function Manifesto() {
   return (
-    <div className="about-section" id="manifesto">
+    <div className="manifesto-section" id="manifesto">
       <div className="container">
         <div className="row manifesto">
           <h3 className="manifesto-title">Manifesto</h3>
@@ -46,9 +46,8 @@ export function About() {
         </div>
       </div>
       <style jsx>{`
-        .about-section {
-          margin-top: 300px;
-          height: 150vh;
+        .manifesto-section {
+          margin: 450px 0 300px 0;
           width: 100%;
         }
 
