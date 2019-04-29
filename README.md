@@ -35,7 +35,7 @@ git subtree push --prefix out origin gh-pages
 
 TODO (michal): fix loading pages from wrong subdir `flyingcircuit.com/out`
 
-## Sending applications to Google spreadsheets
+## Sending RSVP info to Google spreadsheets
 
 1. Create a Google Spreadsheet (with sheet called `responses`) where the first row has `email` and `name`
 2. Go to `Tools -> Script Editor` and copy-paste this code (it is based on [this original gist](https://gist.github.com/tayiorbeii/cc8dc6a1028f0e8040c82d34d857bd64)):
