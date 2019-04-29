@@ -6,7 +6,11 @@ export function Speakers() {
       </div>
       <div className="row">
         <div className="one-third column speaker-card">
-          <img className="speaker-image" src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg" alt="Firstname Lastname" />
+          <img
+            className="speaker-image"
+            src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg"
+            alt="Firstname Lastname"
+          />
           <h5>Firstname Lastname</h5>
           <div>
             lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
@@ -16,7 +20,11 @@ export function Speakers() {
           </div>
         </div>
         <div className="one-third column speaker-card">
-          <img className="speaker-image" src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg" alt="Firstname Lastname" />
+          <img
+            className="speaker-image"
+            src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg"
+            alt="Firstname Lastname"
+          />
           <h5>Firstname Lastname</h5>
           <div>
             lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
@@ -26,7 +34,11 @@ export function Speakers() {
           </div>
         </div>
         <div className="one-third column speaker-card">
-          <img className="speaker-image" src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg" alt="Firstname Lastname" />
+          <img
+            className="speaker-image"
+            src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg"
+            alt="Firstname Lastname"
+          />
           <h5>Firstname Lastname</h5>
           <div>
             lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
@@ -38,7 +50,11 @@ export function Speakers() {
       </div>
       <div className="row">
         <div className="one-third column speaker-card">
-          <img className="speaker-image" src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg" alt="Firstname Lastname" />
+          <img
+            className="speaker-image"
+            src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg"
+            alt="Firstname Lastname"
+          />
           <h5>Firstname Lastname</h5>
           <div>
             lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
@@ -48,7 +64,11 @@ export function Speakers() {
           </div>
         </div>
         <div className="one-third column speaker-card">
-          <img className="speaker-image" src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg" alt="Firstname Lastname" />
+          <img
+            className="speaker-image"
+            src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg"
+            alt="Firstname Lastname"
+          />
           <h5>Firstname Lastname</h5>
           <div>
             lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
@@ -58,7 +78,11 @@ export function Speakers() {
           </div>
         </div>
         <div className="one-third column speaker-card">
-          <img className="speaker-image" src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg" alt="Firstname Lastname" />
+          <img
+            className="speaker-image"
+            src="https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg"
+            alt="Firstname Lastname"
+          />
           <h5>Firstname Lastname</h5>
           <div>
             lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
@@ -70,7 +94,7 @@ export function Speakers() {
       </div>
       <style jsx>{`
         .speaker-card {
-          margin: 10px;
+          margin: 1.3%;
         }
         .speaker-image {
           border-radius: 50%;

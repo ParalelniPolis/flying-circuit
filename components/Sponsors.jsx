@@ -18,13 +18,13 @@ export function Sponsors() {
     <div className="container">
       <div className="row">
         <h3>Sponsors</h3>
-        <div className="one-third column speaker-card">
+        <div className="one-third column sponsor-card">
           <img className="sponsor-image" src="/static/img/paralelnipolis-logo-white.png" alt="Firstname Lastname" />
         </div>
-        <div className="one-third column speaker-card">
+        <div className="one-third column sponsor-card">
           <img className="sponsor-image" src="/static/img/paralelnipolis-logo-white.png" alt="Firstname Lastname" />
         </div>
-        <div className="one-third column speaker-card">
+        <div className="one-third column sponsor-card">
           <img className="sponsor-image" src="/static/img/paralelnipolis-logo-white.png" alt="Firstname Lastname" />
         </div>
       </div>
@@ -75,6 +75,9 @@ export function Sponsors() {
       )}
 
       <style jsx>{`
+        .sponsor-card {
+          margin: 1.3%;
+        }
         .sponsor-image {
           width: 200px;
         }

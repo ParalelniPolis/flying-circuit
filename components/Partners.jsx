@@ -18,13 +18,13 @@ export function Partners() {
     <div className="container">
       <div className="row">
         <h3>Partners</h3>
-        <div className="one-third column speaker-card">
+        <div className="one-third column partner-card">
           <img className="partner-image" src="/static/img/paralelnipolis-logo-white.png" alt="Firstname Lastname" />
         </div>
-        <div className="one-third column speaker-card">
+        <div className="one-third column partner-card">
           <img className="partner-image" src="/static/img/paralelnipolis-logo-white.png" alt="Firstname Lastname" />
         </div>
-        <div className="one-third column speaker-card">
+        <div className="one-third column partner-card">
           <img className="partner-image" src="/static/img/paralelnipolis-logo-white.png" alt="Firstname Lastname" />
         </div>
       </div>
@@ -73,6 +73,9 @@ export function Partners() {
       )}
 
       <style jsx>{`
+        .partner-card {
+          margin: 1.3%;
+        }
         .partner-image {
           width: 200px;
         }
