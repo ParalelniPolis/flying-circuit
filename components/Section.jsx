@@ -7,7 +7,7 @@ export function Section({ id, children }) {
       <style jsx>{`
         .section {
           text-align: center;
-          margin-bottom: 200px;
+          z-index: 10;
         }
       `}</style>
     </div>

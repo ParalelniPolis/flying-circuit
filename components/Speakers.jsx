@@ -1,6 +1,6 @@
 export function Speakers() {
   return (
-    <div className="container">
+    <div className="container speakers">
       <div className="row">
         <h3>Speakers & Judges</h3>
       </div>
@@ -93,6 +93,9 @@ export function Speakers() {
         </div>
       </div>
       <style jsx>{`
+        .speakers {
+          margin-bottom: 200px;
+        }
         .speaker-card {
           margin: 1.3%;
         }

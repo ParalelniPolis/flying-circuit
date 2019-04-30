@@ -1,6 +1,6 @@
 export function Mentors() {
   return (
-    <div className="container">
+    <div className="container mentors">
       <div className="row">
         <h3>Mentors</h3>
       </div>
@@ -69,6 +69,9 @@ export function Mentors() {
         </div>
       </div>
       <style jsx>{`
+        .mentors {
+          margin-bottom: 200px;
+        }
         .mentor-card {
           margin: 10px;
         }

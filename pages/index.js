@@ -1,6 +1,5 @@
 import { Manifesto } from "../components/Manifesto";
-import { Header } from "../components/Header";
-import { Hero } from "../components/Hero";
+import { AnimatedHeader } from "../components/AnimatedHeader";
 import { Sponsors } from "../components/Sponsors";
 import { Mentors } from "../components/Mentors";
 import { Partners } from "../components/Partners";
@@ -12,8 +11,7 @@ import { Tickets } from "../components/Tickets";
 
 export default () => (
   <div>
-    <Header />
-    <Hero />
+    <AnimatedHeader />
     <Section id="manifesto">
       <Manifesto />
     </Section>
@@ -42,6 +40,7 @@ export default () => (
         font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: white;
         font-size: 1.7rem;
+        overflow-x: hidden;
       }
       input[type="email"],
       input[type="number"],

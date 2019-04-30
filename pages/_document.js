@@ -1,16 +1,18 @@
 // _document is only rendered on the server side and not on the client side
 // Event handlers like onClick can't be added to this file
 
-// ./pages/_document.js
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { ServerStyleSheet } from 'styled-components'
 import config from "../config";
 
 const { seo } = config;
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
+  static async getInitialProps({ renderPage }) {
+    const sheet = new ServerStyleSheet()
+    const page = renderPage(App => props => sheet.collectStyles(<App {...props} />))
+    const styleTags = sheet.getStyleElement()
+    return { ...page, styleTags }
   }
 
   render() {
@@ -37,6 +39,8 @@ class MyDocument extends Document {
 
           <link rel="stylesheet" type="text/css" href="/static/styles/normalize.css" />
           <link rel="stylesheet" type="text/css" href="/static/styles/skeleton.css" />
+
+          {this.props.styleTags}
         </Head>
         <body>
           <Main />

@@ -15,7 +15,7 @@ export function Sponsors() {
   }
 
   return (
-    <div className="container">
+    <div className="container sponsors">
       <div className="row">
         <h3>Sponsors</h3>
         <div className="one-third column sponsor-card">
@@ -75,6 +75,9 @@ export function Sponsors() {
       )}
 
       <style jsx>{`
+        .sponsors {
+          margin-bottom: 200px;
+        }
         .sponsor-card {
           margin: 1.3%;
         }

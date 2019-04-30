@@ -58,7 +58,7 @@ export function Tickets() {
   }
 
   return (
-    <div className="container">
+    <div className="container tickets">
       <div className="row">
         <h3>Tickets</h3>
         <div>
@@ -134,6 +134,9 @@ export function Tickets() {
         ))
       )}
       <style jsx>{`
+        .tickets {
+          margin-bottom: 200px;
+        }
         .ticket-form {
           margin-top: 50px;
         }

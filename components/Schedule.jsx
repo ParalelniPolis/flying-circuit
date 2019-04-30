@@ -1,6 +1,6 @@
 export function Schedule() {
   return (
-    <div className="container">
+    <div className="container schedule">
       <div className="row">
         <h3>Schedule</h3>
         <div>
@@ -11,7 +11,9 @@ export function Schedule() {
         </div>
       </div>
       <style jsx>{`
-
+        .schedule {
+          margin-bottom: 200px;
+        }
       `}</style>
     </div>
   )
