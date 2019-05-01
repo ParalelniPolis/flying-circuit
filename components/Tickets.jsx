@@ -1,5 +1,5 @@
 import { useState } from "react";
-import config from "../config";
+import Reaptcha from "reaptcha";
 
 const initialState = {
   email: "",
@@ -9,6 +9,8 @@ const initialState = {
   error: "",
   submitted: false,
   loading: false,
+  recaptchaLoaded: false,
+  recaptchaVerified: false,
 };
 
 export function Tickets() {
@@ -16,6 +18,11 @@ export function Tickets() {
 
   function updateState(newState) {
     setState({ ...state, ...newState });
+  }
+
+  function onRecaptchaVerified(response) {
+    console.log(response);
+    updateState({ recaptchaVerified: true });
   }
 
   async function sendToSpreadsheet() {
@@ -44,7 +51,7 @@ export function Tickets() {
       updateState({ loading: true });
 
       const res = await fetch(
-        `${config.GOOGLE_SCRIPT_URL}?name=${encodeURIComponent(state.name)}&email=${encodeURIComponent(
+        `${process.env.GOOGLE_SCRIPT_URL}?name=${encodeURIComponent(state.name)}&email=${encodeURIComponent(
           state.email
         )}&description=${encodeURIComponent(state.projectDescription)}`
       );
@@ -115,7 +122,14 @@ export function Tickets() {
               onChange={e => updateState({ projectDescription: e.target.value })}
             />
 
-            <input className="button" type="submit" value="RSVP" />
+            <Reaptcha sitekey={process.env.GOOGLE_RECAPTCHA_KEY} theme="dark" onVerify={onRecaptchaVerified} />
+
+            <input
+              className={`button ${state.recaptchaVerified ? "" : "button-disabled"}`}
+              type="submit"
+              value="RSVP"
+              disabled={!state.recaptchaVerified}
+            />
           </form>
         </div>
       </div>
@@ -142,6 +156,19 @@ export function Tickets() {
         }
         .honeypot {
           display: none;
+        }
+
+        .button-disabled,
+        .button-disabled:hover,
+        .button-disabled:focus {
+          color: #777777;
+          border: 1px solid #777777;
+          text-decoration: line-through;
+        }
+      `}</style>
+      <style jsx global>{`
+        .g-recaptcha {
+          margin-bottom: 20px;
         }
       `}</style>
     </div>

@@ -51,7 +51,7 @@ export function HeroWhiteBg() {
           backgroundImage: "url(/static/img/hfc-text-bw-transparent.png)",
           backgroundSize: `${state.logoWidth}px ${state.logoHeight}px`,
           backgroundRepeat: "no-repeat",
-          position: "fixed",
+          position: state.position,
           width: `${state.logoWidth}px`,
           height: `${state.revealedFromHeight}px`,
           zIndex: 203,
