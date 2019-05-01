@@ -28,12 +28,12 @@ export function HeroWhiteBg() {
       } else if (window.scrollY > revealYStart && window.scrollY < revealYEnd) {
         // within logo height
         setState({ ...state, scrollY: window.scrollY, revealedFromHeight: state.logoHeight - (window.scrollY - revealYStart), logoOffsetTop: 150, position: "fixed" });
-      } else if (window.scrollY > window.innerHeight + 1000) {
-        // whole logo revealed and is scrolled away
-        setState({ ...state, scrollY: window.scrollY, revealedFromHeight: 0, logoOffsetTop: window.innerHeight + 150, position: "absolute" });
+      } else if (window.scrollY > revealYEnd && window.scrollY < window.innerHeight + 600) {
+        // after logo revealed BUT still fixated
+        setState({ ...state, scrollY: window.scrollY, revealedFromHeight: 0, logoOffsetTop: 150, position: "fixed" });
       } else {
-        // whole logo revealed, but stays in place
-        setState({ ...state, scrollY: window.scrollY, revealedFromHeight: 0, logoOffsetTop: window.innerHeight + 150, position: "absolute" });
+        // whole logo revealed and is scrolled away
+        setState({ ...state, scrollY: window.scrollY, revealedFromHeight: 0, logoOffsetTop: window.innerHeight + 750, position: "absolute" });
       }
     };
 
