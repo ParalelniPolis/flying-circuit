@@ -14,6 +14,10 @@ export default () => (
     <AnimatedHeader />
     <Section id="manifesto">
       <Manifesto />
+      <Tickets />
+    </Section>
+    {/*<Section id="tickets">
+      <Tickets />
     </Section>
     <Section id="speakers">
       <Speakers />
@@ -32,7 +36,7 @@ export default () => (
     </Section>
     <Section id="sponsors">
       <Sponsors />
-    </Section>
+    </Section>*/}
     <Footer />
     <style global jsx>{`
       body {

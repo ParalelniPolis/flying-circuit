@@ -35,17 +35,17 @@ export function Manifesto() {
         </p>
       </div>
 
-      <div className="row join-us">
+      {/*<div className="row join-us">
         <Link href="/code-of-conduct">
           <button className="btn">Code of conduct</button>
         </Link>
         <AnchorLink offset="100" href="#tickets">
           <button>Join us!</button>
         </AnchorLink>
-      </div>
+      </div>*/}
       <style jsx>{`
         .manifesto-section {
-          margin: 450px auto 300px;
+          margin: 450px auto 0;
           width: 100%;
         }
 

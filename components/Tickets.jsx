@@ -66,15 +66,6 @@ export function Tickets() {
 
   return (
     <div className="container tickets">
-      <div className="row">
-        <h3>Tickets</h3>
-        <div>
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum
-        </div>
-      </div>
       <div className="row ticket-form">
         <div className="six columns offset-by-three">
           <form

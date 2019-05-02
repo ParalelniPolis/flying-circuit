@@ -1,14 +1,14 @@
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export function Footer() {
   return (
     <footer>
       <div className="container">
-        <div className="row join-us">
+        {/*<div className="row join-us">
           <AnchorLink offset="100" href="#tickets">
             <button>Join us!</button>
           </AnchorLink>
-        </div>
+        </div>*/}
         <div className="row">
           <div className="copyright">Copyright &copy; {new Date().getFullYear()} Paralelní Polis</div>
         </div>
