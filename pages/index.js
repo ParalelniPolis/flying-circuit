@@ -1,5 +1,6 @@
 import { Manifesto } from "../components/Manifesto";
 import { AnimatedHeader } from "../components/AnimatedHeader";
+import { Intro } from "../components/Intro";
 import { Content } from "../components/Content";
 import { Sponsors } from "../components/Sponsors";
 import { Mentors } from "../components/Mentors";
@@ -12,7 +13,8 @@ import { Tickets } from "../components/Tickets";
 
 export default () => (
   <div>
-    <AnimatedHeader />
+    {/*<AnimatedHeader />*/}
+    <Intro />
     <Section id="manifesto">
       <Manifesto />
     </Section>

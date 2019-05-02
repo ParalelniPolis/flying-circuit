@@ -5,23 +5,23 @@ export function Content() {
         <h3 className="manifesto-title">Tracks</h3>
       </div>
       <div className="row">
-        <div className="one-third column track-card">
+        <p className="one-third column track-card">
           <h5>Privacy</h5>
-          <div>
+          <p>
             Projects participating in the privacy challenge should enhance the power of individuals regarding their personal data. The teams should focus on systematically limiting the privacy breaching factors rather then performing phishing attempts and social attacks.
-          </div>
-        </div>
+          </p>
+        </p>
         <div className="one-third column track-card">
           <h5>Decentralization</h5>
-          <div>
+          <p>
             Decentralization is one of the key topics surrounding Paralelni Polis, it’s a universal protection against a single point of failure in most systems including human decision making.
-          </div>
+          </p>
         </div>
         <div className="one-third column track-card">
           <h5>Urban Hacktivism</h5>
-          <div>
+          <p>
             This track doesn’t require to spend the weekend inside, on the contrary, the projects submitted for this track have to be materialized in the city of Prague. The installations or performances have be relevant for Paralelni Polis and should encourage an independent society.
-          </div>
+          </p>
         </div>
       </div>
       <div className="row award-card">
@@ -30,7 +30,9 @@ export function Content() {
           At the Open exploit a group of curators will pick interesting exploits that were revealed over the course of last year and award those who released them.
         </div>
       </div>
-      <div className="row">
+      <div className="row" style={{
+        marginTop: `40px`
+      }}>
         <h5> Join us: <a href="mailto:hackatoshi@flyingcircuit.com">hackatoshi@flyingcircuit.com</a></h5>
       </div>
       <style jsx>{`

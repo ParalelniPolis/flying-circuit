@@ -4,10 +4,10 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 export function Manifesto() {
   return (
     <div className="container manifesto-section">
+
       <div className="row manifesto">
         <h3 className="manifesto-title">Manifesto</h3>
       </div>
-
       <div className="row manifesto-paragraph">
         <p>
           Paralelní Polis mission is to bring alternatives and tools for  preventing authoritarian tendencies in society.
