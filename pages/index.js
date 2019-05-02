@@ -1,5 +1,6 @@
 import { Manifesto } from "../components/Manifesto";
 import { AnimatedHeader } from "../components/AnimatedHeader";
+import { Content } from "../components/Content";
 import { Sponsors } from "../components/Sponsors";
 import { Mentors } from "../components/Mentors";
 import { Partners } from "../components/Partners";
@@ -14,7 +15,9 @@ export default () => (
     <AnimatedHeader />
     <Section id="manifesto">
       <Manifesto />
-      <Tickets />
+    </Section>
+    <Section id="content">
+      <Content />
     </Section>
     {/*<Section id="tickets">
       <Tickets />
@@ -37,7 +40,7 @@ export default () => (
     <Section id="sponsors">
       <Sponsors />
     </Section>*/}
-    <Footer />
+    {/*<Footer />*/}
     <style global jsx>{`
       body {
         background-color: black;
@@ -45,6 +48,9 @@ export default () => (
         color: white;
         font-size: 1.7rem;
         overflow-x: hidden;
+      }
+      p {
+        text-align: justify;
       }
       input[type="email"],
       input[type="number"],

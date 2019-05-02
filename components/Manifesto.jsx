@@ -10,7 +10,7 @@ export function Manifesto() {
 
       <div className="row manifesto-paragraph">
         <p>
-          Paralelní Polis mission is to bring alternatives and tools for preventing authoritarian tendencies in society.
+          Paralelní Polis mission is to bring alternatives and tools for  preventing authoritarian tendencies in society.
           Hackatoshi’s Flying Circuit is an intervention of cypherpunks into both virtual and physical public space to
           concentrate inspiration, knowledge base and share the sweat to address sick parts of the system and fix them
           with solutions resulting from privacy and decentralized principles.
@@ -18,6 +18,7 @@ export function Manifesto() {
       </div>
 
       <div className="row manifesto-paragraph">
+        <h5> True hackathon </h5>
         <p>
           Weekend-long hacking competition focused on privacy, individual freedom, decentralization and viable system
           exploits.
@@ -34,18 +35,17 @@ export function Manifesto() {
           constrain personal freedom.
         </p>
       </div>
-
-      {/*<div className="row join-us">
-        <Link href="/code-of-conduct">
-          <button className="btn">Code of conduct</button>
-        </Link>
-        <AnchorLink offset="100" href="#tickets">
-          <button>Join us!</button>
-        </AnchorLink>
-      </div>*/}
+      {/*<div className="row join-us">*/}
+      {/*  /!*<Link href="/code-of-conduct">*!/*/}
+      {/*  /!*  <button className="btn">Code of conduct</button>*!/*/}
+      {/*  /!*</Link>*!/*/}
+      {/*  <AnchorLink offset="100" href="#tickets">*/}
+      {/*    <button>Join us!</button>*/}
+      {/*  </AnchorLink>*/}
+      {/*</div>*/}
       <style jsx>{`
         .manifesto-section {
-          margin: 450px auto 0;
+          margin: 100px auto 50px;
           width: 100%;
         }
 
@@ -63,6 +63,10 @@ export function Manifesto() {
           margin-top: 40px;
         }
 
+        .manifesto-paragraph h5 {
+          font-weight: 500;
+          font-size: 2.5rem;
+        }
         .join-us {
           margin-top: 50px;
         }
