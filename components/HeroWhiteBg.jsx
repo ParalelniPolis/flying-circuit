@@ -70,7 +70,6 @@ function HeroWhiteBgComponent(props) {
     };
   }, [state.scrollY]);
 
-  console.log(props);
   return (
     <div className="header-graphics-white">
       <div
