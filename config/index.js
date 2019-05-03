@@ -11,7 +11,7 @@ export default {
         logoOffsetTop: 150,
         logoWidth: 525,
         logoHeight: 300,
-        logoPercentageFromLeft: 20
+        logoPercentageFromLeft: "20%"
       },
       // SkeletonCSS Mobile
       mobile: {
@@ -19,7 +19,7 @@ export default {
         logoOffsetTop: 150,
         logoWidth: 525,
         logoHeight: 300,
-        logoPercentageFromLeft: 20
+        logoPercentageFromLeft: "20%"
       },
       // SkeletonCSS Phablet
       phablet: {
@@ -27,7 +27,7 @@ export default {
         logoOffsetTop: 150,
         logoWidth: 525,
         logoHeight: 300,
-        logoPercentageFromLeft: 20
+        logoPercentageFromLeft: "20%"
       },
       // SkeletonCSS Tablet
       tablet: {
@@ -35,7 +35,7 @@ export default {
         logoOffsetTop: 150,
         logoWidth: 525,
         logoHeight: 300,
-        logoPercentageFromLeft: 20
+        logoPercentageFromLeft: "20%"
       },
       // SkeletonCSS Desktop
       desktop: {
@@ -43,15 +43,15 @@ export default {
         logoOffsetTop: 150,
         logoWidth: 525,
         logoHeight: 300,
-        logoPercentageFromLeft: 20
+        logoPercentageFromLeft: "20%"
       },
       // SkeletonCSS Desktop HD
       desktopHD: {
         minWidth: 1200,
         logoOffsetTop: 150,
-        logoWidth: 525,
-        logoHeight: 300,
-        logoPercentageFromLeft: 20
+        logoWidth: 900,
+        logoHeight: 497,
+        logoPercentageFromLeft: "calc(50% - 447px)"
       }
     }
   }

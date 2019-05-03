@@ -1,15 +1,10 @@
 import { useState, useEffect } from "react";
 import { ScrollIcon } from "./ScrollIcon";
-import config from "../config";
 import withResponsiveCSS from "../utils/withResponsiveCSS";
 
-const { css } = config;
-
 const initialState = {
-  revealedFromHeight: 300,
   logoOffsetTop: 150,
-  logoWidth: 525,
-  logoHeight: 300,
+  revealedFromHeight: 300,
   innerHeight: 0,
   scrollY: 0,
   isMounted: false,
@@ -20,21 +15,18 @@ function HeroWhiteBgComponent(props) {
   const [state, setState] = useState(initialState);
 
   useEffect(() => {
-    // Use Desktop's media queries for default responsive CSS
-    let responsiveCSS = css.mediaQueries.desktop;
-    if (window.innerWidth < css.mediaQueries.desktop)
-      setState({ ...state, mounted: true, innerHeight: window.innerHeight });
+    setState({ ...state, mounted: true, innerHeight: window.innerHeight, revealedFromHeight: props.responsiveCSS.loogoHeight });
 
     const onScroll = () => {
-      const revealYStart = window.innerHeight - state.logoOffsetTop - state.logoHeight;
-      const revealYEnd = revealYStart + state.logoHeight;
+      const revealYStart = window.innerHeight - state.logoOffsetTop - props.responsiveCSS.logoHeight;
+      const revealYEnd = revealYStart + props.responsiveCSS.logoHeight;
 
       if (window.scrollY < revealYStart) {
         // not revealing yet...
         setState({
           ...state,
           scrollY: window.scrollY,
-          revealedFromHeight: state.logoHeight,
+          revealedFromHeight: props.responsiveCSS.logoHeight,
           logoOffsetTop: 150,
           position: "fixed",
         });
@@ -43,7 +35,7 @@ function HeroWhiteBgComponent(props) {
         setState({
           ...state,
           scrollY: window.scrollY,
-          revealedFromHeight: state.logoHeight - (window.scrollY - revealYStart),
+          revealedFromHeight: props.responsiveCSS.logoHeight - (window.scrollY - revealYStart),
           logoOffsetTop: 150,
           position: "fixed",
         });
@@ -69,35 +61,34 @@ function HeroWhiteBgComponent(props) {
       window.removeEventListener("scroll", onScroll);
     };
   }, [state.scrollY]);
-
-  console.log(props);
+  console.log(props.responsiveCSS)
   return (
     <div className="header-graphics-white">
       <div
         style={{
           backgroundImage: "url(/static/img/hfc-text-bw-transparent.png)",
-          backgroundSize: `${state.logoWidth}px ${state.logoHeight}px`,
+          backgroundSize: `${props.responsiveCSS.logoWidth}px ${props.responsiveCSS.logoHeight}px`,
           backgroundRepeat: "no-repeat",
           position: state.position,
-          width: `${state.logoWidth}px`,
+          width: `${props.responsiveCSS.logoWidth}px`,
           height: `${state.revealedFromHeight}px`,
           zIndex: 203,
           top: `${state.logoOffsetTop}px`,
-          left: "25%",
+          left: props.responsiveCSS.logoPercentageFromLeft,
           display: state.revealedFromHeight === 0 ? "none" : "block",
         }}
       />
       <div
         style={{
           backgroundImage: "url(/static/img/hfc-text-color-transparent.png)",
-          backgroundSize: `${state.logoWidth}px ${state.logoHeight}px`,
+          backgroundSize: `${props.responsiveCSS.logoWidth}px ${props.responsiveCSS.logoHeight}px`,
           backgroundRepeat: "no-repeat",
           position: state.position,
-          width: `${state.logoWidth}px`,
-          height: `${state.logoHeight}px`,
+          width: `${props.responsiveCSS.logoWidth}px`,
+          height: `${props.responsiveCSS.logoHeight}px`,
           zIndex: 201,
           top: `${state.logoOffsetTop}px`,
-          left: "25%",
+          left: props.responsiveCSS.logoPercentageFromLeft,
         }}
       />
       <div
