@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ScrollIcon } from "./ScrollIcon";
+// import { ScrollIcon } from "./ScrollIcon";
 import withResponsiveCSS from "../utils/withResponsiveCSS";
 
 const initialState = {
@@ -61,7 +61,7 @@ function HeroWhiteBgComponent(props) {
       window.removeEventListener("scroll", onScroll);
     };
   }, [state.scrollY]);
-  console.log(props.responsiveCSS)
+
   return (
     <div className="header-graphics-white">
       <div
