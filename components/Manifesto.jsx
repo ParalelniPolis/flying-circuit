@@ -45,8 +45,7 @@ export function Manifesto() {
       {/*</div>*/}
       <style jsx>{`
         .manifesto-section {
-          margin: 100px auto 50px;
-          width: 100%;
+          margin-top: 50px;
         }
 
         .manifesto {

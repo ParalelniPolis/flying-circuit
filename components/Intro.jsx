@@ -98,24 +98,26 @@ export function Intro() {
         <div className="container black">
           <div className="row u-full-width black">
             <img className="flowers" src="/static/img/flowers.png" />
-            <img className="head sticky" src="/static/img/head.png" />
+            {/*<div className="test">*/}
+              <img className="head sticky" src="/static/img/head.png" />
+            {/*</div>*/}
           </div>
         </div>
       </div>
 
       <style jsx>{`
 
+        .test{
+          position: relative;
+          overflow: hidden;
+          margin-top: -80px;
+        }
         .info {
           color: black;
           font-weight: 700;
           font-size: 2rem;
           text-align: center;
         }
-        .test{
-          background: linear-gradient(white, black);
-          // height: 50%
-        }
-        
         .sticky {
           position: sticky;
           top: 0;
@@ -123,10 +125,10 @@ export function Intro() {
         .intro{ 
         background: white;
           background: linear-gradient(white, black);
-          min-height: -webkit-fill-available;
-          min-height: -moz-available;
-          min-height: fill-available;
-          height: 100%;
+          // min-height: -webkit-fill-available;
+          // min-height: -moz-available;
+          // min-height: fill-available;
+          height: 100vh;
         } 
         
         .intro-body {
@@ -189,8 +191,10 @@ export function Intro() {
           position: absolute;
           width: 90%;
           left: 29%;
-          margin-top: -80px;
-          z-index: 101;
+          margin-top: -60px;
+          z-index: 100;
+          // object-fit: contain;
+          // overflow:hidden;
         }
       `}</style>
     </div>
