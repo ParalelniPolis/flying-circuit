@@ -18,6 +18,7 @@ export function Manifesto() {
       </div>
 
       <div className="row manifesto-paragraph">
+        <h5> True hackathon </h5>
         <p>
           Weekend-long hacking competition focused on privacy, individual freedom, decentralization and viable system
           exploits.
@@ -33,6 +34,11 @@ export function Manifesto() {
           concepts that will help people to protect their digital self or exploit existing systems that were built to
           constrain personal freedom.
         </p>
+      </div>
+      <div className="row">
+        <h5>
+          Join us: <a href="mailto:hackatoshi@flyingcircuit.com">hackatoshi@flyingcircuit.com</a>
+        </h5>
       </div>
 
       {/*<div className="row join-us">

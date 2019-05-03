@@ -91,12 +91,12 @@ function HeroWhiteBgComponent(props) {
           left: props.responsiveCSS.logoPercentageFromLeft,
         }}
       />
-      <div
+      {/*<div
         className="scroll-down"
         style={{ top: `${state.mounted ? state.innerHeight - 150 : 500}px`, position: "absolute" }}
       >
         <ScrollIcon scrollTo="#manifesto" smoothScroll={true} />
-      </div>
+      </div>*/}
       <style jsx>{`
         .header-graphics-white {
           text-align: center;

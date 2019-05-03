@@ -1,20 +1,19 @@
 import { Manifesto } from "../components/Manifesto";
 import { AnimatedHeader } from "../components/AnimatedHeader";
-import { Sponsors } from "../components/Sponsors";
-import { Mentors } from "../components/Mentors";
-import { Partners } from "../components/Partners";
-import { Schedule } from "../components/Schedule";
+// import { Sponsors } from "../components/Sponsors";
+// import { Mentors } from "../components/Mentors";
+// import { Partners } from "../components/Partners";
+// import { Schedule } from "../components/Schedule";
 import { Section } from "../components/Section";
-import { Speakers } from "../components/Speakers";
+// import { Speakers } from "../components/Speakers";
 import { Footer } from "../components/Footer";
-import { Tickets } from "../components/Tickets";
+// import { Tickets } from "../components/Tickets";
 
 export default () => (
   <div>
     <AnimatedHeader />
     <Section id="manifesto">
       <Manifesto />
-      <Tickets />
     </Section>
     {/*<Section id="tickets">
       <Tickets />
