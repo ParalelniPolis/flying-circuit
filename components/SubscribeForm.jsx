@@ -1,26 +1,19 @@
-import { useState } from "react";
+import { useState, createRef } from "react";
 import Reaptcha from "reaptcha";
 import NodeRSA from "node-rsa";
-
-// Public key for message encryption
-const PUBLIC_KEY =
-  "\
-   -----BEGIN PUBLIC KEY-----\
-    MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlhRrUpk1cx7CQbUVRhKu05SRh\
-    RBaIjixRz5NNTYa6W1wOdgNf4PkZOuaXXzXQVbHW0ySmxE7OK8ua9TK4CZ7qEQGE\
-    7Xwch4q4lc/YcG1t4pnKWuDuCGOaGuSry+64G0TgygIm/MwsY4VHP9gO/LcHGlyI\
-    yT7cnI9oWhWlw0/HOQIDAQAB\
-    -----END PUBLIC KEY-----";
+import PUBLIC_KEY from '../keys/public'
+import PRIVATE_KEY from '../keys/private'
 
 const ENCODING = "base64";
 
-var rsa = new NodeRSA();
+var rsa = new NodeRSA(PRIVATE_KEY);
 rsa.importKey(PUBLIC_KEY);
 
 const initialState = {
   email: "",
   name: "",
   projectDescription: "",
+  track: "Privacy",
   honeypot: "",
   error: "",
   submitted: false,
@@ -31,17 +24,29 @@ const initialState = {
 
 export function SubscribeForm() {
   const [state, setState] = useState(initialState);
+  // TODO: find out why recaptcha resets the state
+  const emailRef = createRef();
+  const nameRef = createRef();
+  const descRef = createRef();
+  const trackRef = createRef();
 
   function updateState(newState) {
     setState({ ...state, ...newState });
   }
 
-  function onRecaptchaVerified(response) {
-    updateState({ recaptchaVerified: true });
+  function onRecaptchaVerified() {
+    updateState({
+      recaptchaVerified: true,
+      email: emailRef.current.value,
+      name: nameRef.current.value,
+      projectDescription: descRef.current.value,
+      track: trackRef.current.value,
+    });
   }
 
   async function sendToSpreadsheet() {
     const previousEmail = localStorage.getItem("hfc2019-email");
+
     if (previousEmail === state.email) {
       updateState({ submitted: true, error: "You already are on our list." });
       return false;
@@ -53,7 +58,7 @@ export function SubscribeForm() {
     }
 
     if (!state.name) {
-      updateState({ submitted: true, error: "Your name is missing." });
+      updateState({ submitted: true, error: "Your name/nickname is missing." });
       return false;
     }
 
@@ -68,9 +73,9 @@ export function SubscribeForm() {
       const res = await fetch(
         `${process.env.GOOGLE_SCRIPT_URL}?name=${encodeURIComponent(
           rsa.encrypt(state.name, ENCODING)
-        )}&email=${encodeURIComponent(rsa.encrypt(state.email, ENCODING))}&description=${encodeURIComponent(
-          rsa.encrypt(state.projectDescription, ENCODING)
-        )}`
+        )}&email=${encodeURIComponent(rsa.encrypt(state.email, ENCODING))}&track=${encodeURIComponent(
+          rsa.encrypt(state.track, ENCODING)
+        )}&description=${encodeURIComponent(rsa.encrypt(state.projectDescription, ENCODING))}`
       );
       if (res.status === 200) {
         updateState({ submitted: true, error: "", loading: false });
@@ -100,31 +105,30 @@ export function SubscribeForm() {
         defaultValue=""
         onChange={e => updateState({ honeypot: e.target.value })}
       />
-      <input
-        className="u-full-width"
-        type="email"
-        name="email"
-        placeholder="Email"
-        id="email-input"
-        onChange={e => updateState({ email: e.target.value })}
-      />
+      <input className="u-full-width" ref={emailRef} type="email" name="email" placeholder="Email" id="email-input" />
 
       <input
         className="u-full-width"
+        ref={nameRef}
         type="text"
         name="name"
-        placeholder="Name"
+        placeholder="Name/Nickname"
         id="name-input"
-        onChange={e => updateState({ name: e.target.value })}
       />
+
+      <select className="u-full-width" id="track-select" ref={trackRef}>
+        <option value="Privacy">Privacy</option>
+        <option value="Decentralization">Decentralization</option>
+        <option value="Urban Hacktivism">Urban Hacktivism</option>
+      </select>
 
       <textarea
         className="u-full-width"
+        ref={descRef}
         type="text"
         name="description"
-        placeholder="Describe what you want to build in few words"
+        placeholder="What you'd like to hack?"
         id="project-description-input"
-        onChange={e => updateState({ projectDescription: e.target.value })}
       />
 
       <Reaptcha sitekey={process.env.GOOGLE_RECAPTCHA_KEY} theme="dark" onVerify={onRecaptchaVerified} />

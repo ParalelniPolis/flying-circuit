@@ -22,7 +22,7 @@ export function Intro() {
     const onScroll = () => {
       const lockHeight = window.innerHeight + state.sectionTopMargin;
       var logoIntensity = 100 - (window.scrollY / 10)*2;
-      console.log(logoIntensity);
+      // console.log(logoIntensity);
       setState({...state, logoIntensity: logoIntensity});
 
       // var logoOpacityA = window.scrollY / 1000;
@@ -122,19 +122,19 @@ export function Intro() {
           position: sticky;
           top: 0;
         }
-        .intro{ 
+        .intro{
         background: white;
           background: linear-gradient(white, black);
           // min-height: -webkit-fill-available;
           // min-height: -moz-available;
           // min-height: fill-available;
           height: 100vh;
-        } 
-        
+        }
+
         .intro-body {
           padding: 5%;
         }
-        
+
         .header {
           top: 0;
           padding: 40px;
@@ -145,26 +145,26 @@ export function Intro() {
         .header-logos {
           display: inline-block;
           margin-bottom: 45px;
-          
+
         }
         .header-logos img {
           max-width: 130px;
           max-height: 80px;
         }
-        
+
         #leftTop {
           float: left;
         }
-        
+
         #rightTop {
           margin-top: -20px;
           float: right;
         }
-        
+
         .intro-body {
           text-align: center;
         }
-        
+
         .intro-body img {
           width: 80%;
           height: auto;
@@ -173,11 +173,11 @@ export function Intro() {
           top: 50px;
           display: initial;
         }
-        
+
         .scroll-down {
-          
+
         }
-        
+
         .black {
           text-align: center;
           background-color: #000000;

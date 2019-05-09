@@ -13,6 +13,7 @@ node_modules
 .DS_Store
 .env
 .idea
+/keys/private*
 
 npm-debug.log*
 yarn-debug.log*
