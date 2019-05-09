@@ -1,9 +1,10 @@
 import { useState } from "react";
 import Reaptcha from "reaptcha";
-import NodeRSA from "node-rsa"
+import NodeRSA from "node-rsa";
 
 // Public key for message encryption
-var publicKey = "\
+const PUBLIC_KEY =
+  "\
    -----BEGIN PUBLIC KEY-----\
     MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlhRrUpk1cx7CQbUVRhKu05SRh\
     RBaIjixRz5NNTYa6W1wOdgNf4PkZOuaXXzXQVbHW0ySmxE7OK8ua9TK4CZ7qEQGE\
@@ -11,8 +12,10 @@ var publicKey = "\
     yT7cnI9oWhWlw0/HOQIDAQAB\
     -----END PUBLIC KEY-----";
 
-var key = new NodeRSA();
-key.importKey(publicKey);
+const ENCODING = "base64";
+
+var rsa = new NodeRSA();
+rsa.importKey(PUBLIC_KEY);
 
 const initialState = {
   email: "",
@@ -63,9 +66,11 @@ export function SubscribeForm() {
       updateState({ loading: true });
 
       const res = await fetch(
-        `${process.env.GOOGLE_SCRIPT_URL}?name=${encodeURIComponent(key.encrypt(state.name))}&email=${encodeURIComponent(
-          key.encrypt(state.email)
-        )}&description=${encodeURIComponent(key.encrypt(state.projectDescription))}`
+        `${process.env.GOOGLE_SCRIPT_URL}?name=${encodeURIComponent(
+          rsa.encrypt(state.name, ENCODING)
+        )}&email=${encodeURIComponent(rsa.encrypt(state.email, ENCODING))}&description=${encodeURIComponent(
+          rsa.encrypt(state.projectDescription, ENCODING)
+        )}`
       );
       if (res.status === 200) {
         updateState({ submitted: true, error: "", loading: false });
