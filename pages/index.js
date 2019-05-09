@@ -68,7 +68,6 @@ export default () => (
         padding: 6px 20px;
         background-color: #080808;
         border: 1px solid #232323;
-        border-radius: 25px;
         box-shadow: none;
         box-sizing: border-box;
       }
@@ -116,7 +115,6 @@ export default () => (
         text-decoration: none;
         white-space: nowrap;
         background-color: transparent;
-        border-radius: 25px;
         border: 1px solid #bbb;
         cursor: pointer;
         box-sizing: border-box;
