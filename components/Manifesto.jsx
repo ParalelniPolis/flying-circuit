@@ -10,9 +10,9 @@ export function Manifesto() {
       </div>
       <div className="row manifesto-paragraph">
         <p>
-          Paralelní Polis mission is to bring alternatives and tools for  preventing authoritarian tendencies in society.
+          Paralelní Polis' mission is to bring alternatives and tools for  preventing authoritarian tendencies in society.
           Hackatoshi’s Flying Circuit is an intervention of cypherpunks into both virtual and physical public space to
-          concentrate inspiration, knowledge base and share the sweat to address sick parts of the system and fix them
+          concentrate inspiration and knowledge to address sick parts of the system and fix them
           with solutions resulting from privacy and decentralized principles.
         </p>
       </div>
@@ -29,9 +29,9 @@ export function Manifesto() {
         <p>
           Hackers Congress Paralelni Polis (HCPP) has been successful in gathering great minds and thinkers from the
           Cypherpunk and Cryptoanarchist space. Yet all of the topics and ideas discussed during the congress are only
-          as good as they can be applied, performed or achieved. The Hacks Sweatshop should motivate hackers, makers and
+          as good as they can be applied, performed or achieved. Hackatoshis's Flying Circuit should motivate hackers, makers and
           developers to take their tools and skills into practice. The key goal of the hackathon is to prototype new
-          concepts that will help people to protect their digital self or exploit existing systems that were built to
+          concepts that will help people to protect their digital identity or exploit existing systems that were built to
           constrain personal freedom.
         </p>
       </div>
