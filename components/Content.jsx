@@ -33,11 +33,11 @@ export function Content() {
         </div>
       </div>
       <div className="row award-card">
-        <h3> Open Exploit Awards </h3>
+        <h3 className="manifesto-title"> Open Exploit Awards </h3>
         <div className="twelve columns">
           Group of curators will pick interesting exploits that were revealed over the course of
           last year and award those who released them. These teams will be ceremonially awarded (present or remote) and
-          publicly praised for their actions (unless they don't want to). Anyone can nominate a project directly to
+          publicly praised for their actions (unless they don't want to). Anyone can nominate a project directly to&nbsp;
           <a href="mailto:hackatoshi@flyingcircuit.com">hackatoshi@flyingcircuit.com</a>!
         </div>
       </div>

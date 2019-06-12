@@ -15,25 +15,57 @@ export function Manifesto() {
           concentrate inspiration and knowledge to address sick parts of the system and fix them
           with solutions resulting from privacy and decentralized principles.
         </p>
+
       </div>
 
-      <div className="row manifesto-paragraph">
-        <h5> True hackathon </h5>
+      <div className="row">
+        <h3 className="manifesto-title"> True hackathon </h3>
         <p>
           Weekend-long hacking competition focused on privacy, individual freedom, decentralization and viable system
-          exploits.
+          exploits. Each track will have <u> three winning teams</u> awarded with prize money (cryptocurrency) & sw
+          from the sponsors. Code submissions have to be open sourced.
         </p>
-      </div>
-
-      <div className="row manifesto-paragraph">
         <p>
-          Hackers Congress Paralelni Polis (HCPP) has been successful in gathering great minds and thinkers from the
+          Hackers Congress Paralelni Polis <a href="https://hcpp.cz" target="_blank">(HCPP)</a> has been successful in gathering great minds and thinkers from the
           Cypherpunk and Cryptoanarchist space. Yet all of the topics and ideas discussed during the congress are only
           as good as they can be applied, performed or achieved. Hackatoshis's Flying Circuit should motivate hackers, makers and
           developers to take their tools and skills into practice. The key goal of the hackathon is to prototype new
           concepts that will help people to protect their digital identity or exploit existing systems that were built to
           constrain personal freedom.
         </p>
+      </div>
+
+      <div className="row">
+        <h3 className="manifesto-title">Prize money</h3>
+        <p>
+          Each track will have 3 winning teams which means <u>9 winning teams</u> in total! The winners will be picked on the last day (July 21<sup>st</sup>)
+          by a group of judges. The criteria will vary based on the competition track. The current total prize money is set to $5100
+          and may be extended if we find more sponsors.
+        </p>
+      </div>
+      <div className="row">
+
+        <div className="four columns track-card">
+          <h5>
+            <b> 1<sup>st</sup> = $1000 </b>
+          </h5>
+        </div>
+
+        <div className="four columns track-card">
+          <h5>
+            2<sup>st</sup> = $500
+          </h5>
+        </div>
+
+        <div className="four columns track-card">
+          <h5>
+            3<sup>rd</sup> = $200
+          </h5>
+        </div>
+      </div>
+
+      <div className="row manifesto-paragraph">
+
       </div>
       {/*<div className="row join-us">*/}
       {/*  /!*<Link href="/code-of-conduct">*!/*/}
@@ -72,6 +104,7 @@ export function Manifesto() {
         .join-us button {
           margin: 5px;
         }
+        
       `}</style>
     </div>
   );
