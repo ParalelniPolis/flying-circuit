@@ -1,8 +1,8 @@
 import { useState, createRef } from "react";
 import Reaptcha from "reaptcha";
 import NodeRSA from "node-rsa";
-import PUBLIC_KEY from '../keys/public'
-import PRIVATE_KEY from '../keys/private'
+import PUBLIC_KEY from "../keys/public";
+import PRIVATE_KEY from "../keys/private";
 
 const ENCODING = "base64";
 
@@ -105,6 +105,17 @@ export function SubscribeForm() {
         defaultValue=""
         onChange={e => updateState({ honeypot: e.target.value })}
       />
+
+      <label className="u-pull-left" htmlFor="track-select">
+        Preferred track
+      </label>
+
+      <select className="u-full-width" id="track-select" ref={trackRef}>
+        <option value="Privacy">Privacy</option>
+        <option value="Decentralization">Decentralization</option>
+        <option value="Urban Hacktivism">Urban Hacktivism</option>
+      </select>
+
       <input className="u-full-width" ref={emailRef} type="email" name="email" placeholder="Email" id="email-input" />
 
       <input
@@ -115,12 +126,6 @@ export function SubscribeForm() {
         placeholder="Name/Nickname"
         id="name-input"
       />
-
-      <select className="u-full-width" id="track-select" ref={trackRef}>
-        <option value="Privacy">Privacy</option>
-        <option value="Decentralization">Decentralization</option>
-        <option value="Urban Hacktivism">Urban Hacktivism</option>
-      </select>
 
       <textarea
         className="u-full-width"
