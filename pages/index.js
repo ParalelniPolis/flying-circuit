@@ -5,11 +5,12 @@ import { Content } from "../components/Content";
 import { Sponsors } from "../components/Sponsors";
 import { Mentors } from "../components/Mentors";
 import { Partners } from "../components/Partners";
+import { Hackerspaces } from "../components/Hackerspaces";
 import { Schedule } from "../components/Schedule";
 import { Section } from "../components/Section";
 import { Speakers } from "../components/Speakers";
 import { Footer } from "../components/Footer";
-import { Tickets } from "../components/Tickets";
+import { SignUp } from "../components/SignUp";
 
 export default () => (
   <div>
@@ -21,8 +22,17 @@ export default () => (
     <Section id="content">
       <Content />
     </Section>
-    {/*<Section id="tickets">
-      <Tickets />
+    <Section id="signup">
+      <SignUp />
+    </Section>
+    <Section id="partners">
+      <Partners />
+    </Section>
+    <Section id="sponsors">
+      <Sponsors />
+    </Section>
+    {/*<Section id="hackerspaces">
+      <Hackerspaces />
     </Section>
     <Section id="speakers">
       <Speakers />
@@ -32,15 +42,6 @@ export default () => (
     </Section>
     <Section id="schedule">
       <Schedule />
-    </Section>
-    <Section id="tickets">
-      <Tickets />
-    </Section>
-    <Section id="partners">
-      <Partners />
-    </Section>
-    <Section id="sponsors">
-      <Sponsors />
     </Section>*/}
     {/*<Footer />*/}
     <style global jsx>{`
