@@ -47,7 +47,7 @@ export function Manifesto() {
 
         <div className="four columns track-card">
           <h5>
-            <b> 1<sup>st</sup> = $1000 </b>
+            1<sup>st</sup> = $1000
           </h5>
         </div>
 
