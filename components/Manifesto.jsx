@@ -53,7 +53,7 @@ export function Manifesto() {
 
         <div className="four columns track-card">
           <h5>
-            2<sup>st</sup> = $500
+            2<sup>nd</sup> = $500
           </h5>
         </div>
 
@@ -104,7 +104,7 @@ export function Manifesto() {
         .join-us button {
           margin: 5px;
         }
-        
+
       `}</style>
     </div>
   );
