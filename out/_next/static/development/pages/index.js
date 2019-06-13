@@ -236,7 +236,7 @@ function Content() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
-    className: "jsx-3132299337",
+    className: "jsx-3132299337" + " " + "manifesto-title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
@@ -249,7 +249,7 @@ function Content() {
       lineNumber: 37
     },
     __self: this
-  }, "Group of curators will pick interesting exploits that were revealed over the course of last year and award those who released them. These teams will be ceremonially awarded (present or remote) and publicly praised for their actions (unless they don't want to). Anyone can nominate a project directly to", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+  }, "Group of curators will pick interesting exploits that were revealed over the course of last year and award those who released them. These teams will be ceremonially awarded (present or remote) and publicly praised for their actions (unless they don't want to). Anyone can nominate a project directly to\xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "mailto:hackatoshi@flyingcircuit.com",
     className: "jsx-3132299337",
     __source: {
@@ -316,7 +316,7 @@ function Content() {
   }, "hackatoshi@flyingcircuit.com"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3132299337",
     __self: this
-  }, ".manifesto-title.jsx-3132299337{font-weight:700;font-size:3rem;}.content.jsx-3132299337{margin-bottom:100px;}.track-card.jsx-3132299337 div.jsx-3132299337{text-align:justify;}.award-card.jsx-3132299337{margin-top:40px;}.award-card.jsx-3132299337 div.jsx-3132299337{text-align:justify;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9taWNoYWx0YWthYy9Qcm9qZWN0cy9qYXZhc2NyaXB0L2ZseWluZy1jaXJjdWl0L2NvbXBvbmVudHMvQ29udGVudC5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBa0VrQixBQUcyQixBQUtJLEFBTUQsQUFHSCxBQUdHLGdCQWhCSixBQWNqQixHQUhBLEFBTUEsQ0FaQSxXQUpBIiwiZmlsZSI6Ii9Vc2Vycy9taWNoYWx0YWthYy9Qcm9qZWN0cy9qYXZhc2NyaXB0L2ZseWluZy1jaXJjdWl0L2NvbXBvbmVudHMvQ29udGVudC5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBTdWJzY3JpYmVGb3JtIH0gZnJvbSBcIi4vU3Vic2NyaWJlRm9ybVwiO1xuXG5leHBvcnQgZnVuY3Rpb24gQ29udGVudCgpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lciBjb250ZW50XCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwibWFuaWZlc3RvLXRpdGxlXCI+VHJhY2tzPC9oMz5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmb3VyIGNvbHVtbnMgdHJhY2stY2FyZFwiPlxuICAgICAgICAgIDxoNT5Qcml2YWN5PC9oNT5cbiAgICAgICAgICA8cD5cbiAgICAgICAgICAgIFByb2plY3RzIHBhcnRpY2lwYXRpbmcgaW4gdGhlIHByaXZhY3kgY2hhbGxlbmdlIHNob3VsZCBlbmhhbmNlIHRoZSBwb3dlciBvZiBpbmRpdmlkdWFscyBvdmVyIHRoZWlyXG4gICAgICAgICAgICBwZXJzb25hbCBkYXRhLiBUaGUgdGVhbXMgc2hvdWxkIGZvY3VzIG9uIHN5c3RlbWF0aWNhbGx5IGxpbWl0aW5nIHRoZSBwcml2YWN5IGJyZWFjaGluZyBmYWN0b3JzIHJhdGhlciB0aGVuXG4gICAgICAgICAgICBwZXJmb3JtaW5nIHBoaXNoaW5nIGF0dGVtcHRzIGFuZCBzb2NpYWwgYXR0YWNrcyBkdXJpbmcgdGhlIGV2ZW50IGl0c2VsZiA7KS5cbiAgICAgICAgICA8L3A+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvdXIgY29sdW1ucyB0cmFjay1jYXJkXCI+XG4gICAgICAgICAgPGg1PkRlY2VudHJhbGl6YXRpb248L2g1PlxuICAgICAgICAgIDxwPlxuICAgICAgICAgICAgRGVjZW50cmFsaXphdGlvbiBpcyBvbmUgb2YgdGhlIGtleSB0b3BpY3Mgc3Vycm91bmRpbmcgUGFyYWxlbG5pIFBvbGlzLCBpdOKAmXMgYSB1bml2ZXJzYWwgcHJvdGVjdGlvbiBhZ2FpbnN0IGFcbiAgICAgICAgICAgIHNpbmdsZSBwb2ludCBvZiBmYWlsdXJlIGluIG1vc3Qgc3lzdGVtcyBpbmNsdWRpbmcgaHVtYW4gZGVjaXNpb24gbWFraW5nLiBUZWFtcyBpbiB0aGlzIHRyYWNrIHNob3VsZCBoZWxwIHRvIGRpc2NvdmVyXG4gICAgICAgICAgICBTUG9GcyBhbmQgZGVzaWduIGZpeGVzLlxuICAgICAgICAgIDwvcD5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm91ciBjb2x1bW5zIHRyYWNrLWNhcmRcIj5cbiAgICAgICAgICA8aDU+VXJiYW4gSGFja3RpdmlzbTwvaDU+XG4gICAgICAgICAgPHA+XG4gICAgICAgICAgICBUaGlzIHRyYWNrIGRvZXNu4oCZdCByZXF1aXJlIHRvIHNwZW5kIHRoZSB3ZWVrZW5kIGluc2lkZSwgb24gdGhlIGNvbnRyYXJ5LCBwcm9qZWN0cyBzdWJtaXR0ZWQgZm9yIHRoaXNcbiAgICAgICAgICAgIHRyYWNrIGhhdmUgdG8gYmUgbWF0ZXJpYWxpemVkIGluIHRoZSBjaXR5IG9mIFByYWd1ZS4gVGhlIGluc3RhbGxhdGlvbnMgb3IgcGVyZm9ybWFuY2VzIGhhdmUgYmUgcmVsZXZhbnQgZm9yXG4gICAgICAgICAgICBQYXJhbGVsbmkgUG9saXMgYW5kIHNob3VsZCBlbmNvdXJhZ2UgYW4gaW5kZXBlbmRlbnQgc29jaWV0eSBvciBkaXNjb3ZlciBub25zZW5zZSBpbiB0aGUgdXJiYW4gaW5mcmFzdHJ1Y3R1cmUuXG4gICAgICAgICAgPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgYXdhcmQtY2FyZFwiPlxuICAgICAgICA8aDM+IE9wZW4gRXhwbG9pdCBBd2FyZHMgPC9oMz5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0d2VsdmUgY29sdW1uc1wiPlxuICAgICAgICAgIEdyb3VwIG9mIGN1cmF0b3JzIHdpbGwgcGljayBpbnRlcmVzdGluZyBleHBsb2l0cyB0aGF0IHdlcmUgcmV2ZWFsZWQgb3ZlciB0aGUgY291cnNlIG9mXG4gICAgICAgICAgbGFzdCB5ZWFyIGFuZCBhd2FyZCB0aG9zZSB3aG8gcmVsZWFzZWQgdGhlbS4gVGhlc2UgdGVhbXMgd2lsbCBiZSBjZXJlbW9uaWFsbHkgYXdhcmRlZCAocHJlc2VudCBvciByZW1vdGUpIGFuZFxuICAgICAgICAgIHB1YmxpY2x5IHByYWlzZWQgZm9yIHRoZWlyIGFjdGlvbnMgKHVubGVzcyB0aGV5IGRvbid0IHdhbnQgdG8pLiBBbnlvbmUgY2FuIG5vbWluYXRlIGEgcHJvamVjdCBkaXJlY3RseSB0b1xuICAgICAgICAgIDxhIGhyZWY9XCJtYWlsdG86aGFja2F0b3NoaUBmbHlpbmdjaXJjdWl0LmNvbVwiPmhhY2thdG9zaGlAZmx5aW5nY2lyY3VpdC5jb208L2E+IVxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdlxuICAgICAgICBjbGFzc05hbWU9XCJyb3dcIlxuICAgICAgICBzdHlsZT17e1xuICAgICAgICAgIG1hcmdpblRvcDogYDQwcHhgLFxuICAgICAgICAgIG1hcmdpbkJvdHRvbTogYDQwcHhgLFxuICAgICAgICB9fVxuICAgICAgPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInR3ZWx2ZSBjb2x1bW5zXCI+XG4gICAgICAgICAgPGg1PlNpZ24tdXAgYXMgYSBoYWNrZXI8L2g1PlxuICAgICAgICAgIDxTdWJzY3JpYmVGb3JtIC8+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2XG4gICAgICAgIGNsYXNzTmFtZT1cInJvd1wiXG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgbWFyZ2luVG9wOiBgNDBweGAsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgIDxoNT5cbiAgICAgICAgICB7XCIgXCJ9XG4gICAgICAgICAgSm9pbiB1czogPGEgaHJlZj1cIm1haWx0bzpoYWNrYXRvc2hpQGZseWluZ2NpcmN1aXQuY29tXCI+aGFja2F0b3NoaUBmbHlpbmdjaXJjdWl0LmNvbTwvYT5cbiAgICAgICAgPC9oNT5cbiAgICAgIDwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAubWFuaWZlc3RvLXRpdGxlIHtcbiAgICAgICAgICBmb250LXdlaWdodDogNzAwO1xuICAgICAgICAgIGZvbnQtc2l6ZTogM3JlbTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5jb250ZW50IHtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxMDBweDtcbiAgICAgICAgfVxuICAgICAgICAudHJhY2stY2FyZCB7XG4gICAgICAgIH1cblxuICAgICAgICAudHJhY2stY2FyZCBkaXYge1xuICAgICAgICAgIHRleHQtYWxpZ246IGp1c3RpZnk7XG4gICAgICAgIH1cbiAgICAgICAgLmF3YXJkLWNhcmQge1xuICAgICAgICAgIG1hcmdpbi10b3A6IDQwcHg7XG4gICAgICAgIH1cbiAgICAgICAgLmF3YXJkLWNhcmQgZGl2IHtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBqdXN0aWZ5O1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXX0= */\n/*@ sourceURL=/Users/michaltakac/Projects/javascript/flying-circuit/components/Content.jsx */"));
+  }, ".manifesto-title.jsx-3132299337{font-weight:700;font-size:3rem;}.content.jsx-3132299337{margin-bottom:100px;}.track-card.jsx-3132299337 div.jsx-3132299337{text-align:justify;}.award-card.jsx-3132299337{margin-top:40px;}.award-card.jsx-3132299337 div.jsx-3132299337{text-align:justify;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9taWNoYWx0YWthYy9Qcm9qZWN0cy9qYXZhc2NyaXB0L2ZseWluZy1jaXJjdWl0L2NvbXBvbmVudHMvQ29udGVudC5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBa0VrQixBQUcyQixBQUtJLEFBTUQsQUFHSCxBQUdHLGdCQWhCSixBQWNqQixHQUhBLEFBTUEsQ0FaQSxXQUpBIiwiZmlsZSI6Ii9Vc2Vycy9taWNoYWx0YWthYy9Qcm9qZWN0cy9qYXZhc2NyaXB0L2ZseWluZy1jaXJjdWl0L2NvbXBvbmVudHMvQ29udGVudC5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBTdWJzY3JpYmVGb3JtIH0gZnJvbSBcIi4vU3Vic2NyaWJlRm9ybVwiO1xuXG5leHBvcnQgZnVuY3Rpb24gQ29udGVudCgpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lciBjb250ZW50XCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwibWFuaWZlc3RvLXRpdGxlXCI+VHJhY2tzPC9oMz5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmb3VyIGNvbHVtbnMgdHJhY2stY2FyZFwiPlxuICAgICAgICAgIDxoNT5Qcml2YWN5PC9oNT5cbiAgICAgICAgICA8cD5cbiAgICAgICAgICAgIFByb2plY3RzIHBhcnRpY2lwYXRpbmcgaW4gdGhlIHByaXZhY3kgY2hhbGxlbmdlIHNob3VsZCBlbmhhbmNlIHRoZSBwb3dlciBvZiBpbmRpdmlkdWFscyBvdmVyIHRoZWlyXG4gICAgICAgICAgICBwZXJzb25hbCBkYXRhLiBUaGUgdGVhbXMgc2hvdWxkIGZvY3VzIG9uIHN5c3RlbWF0aWNhbGx5IGxpbWl0aW5nIHRoZSBwcml2YWN5IGJyZWFjaGluZyBmYWN0b3JzIHJhdGhlciB0aGVuXG4gICAgICAgICAgICBwZXJmb3JtaW5nIHBoaXNoaW5nIGF0dGVtcHRzIGFuZCBzb2NpYWwgYXR0YWNrcyBkdXJpbmcgdGhlIGV2ZW50IGl0c2VsZiA7KS5cbiAgICAgICAgICA8L3A+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvdXIgY29sdW1ucyB0cmFjay1jYXJkXCI+XG4gICAgICAgICAgPGg1PkRlY2VudHJhbGl6YXRpb248L2g1PlxuICAgICAgICAgIDxwPlxuICAgICAgICAgICAgRGVjZW50cmFsaXphdGlvbiBpcyBvbmUgb2YgdGhlIGtleSB0b3BpY3Mgc3Vycm91bmRpbmcgUGFyYWxlbG5pIFBvbGlzLCBpdOKAmXMgYSB1bml2ZXJzYWwgcHJvdGVjdGlvbiBhZ2FpbnN0IGFcbiAgICAgICAgICAgIHNpbmdsZSBwb2ludCBvZiBmYWlsdXJlIGluIG1vc3Qgc3lzdGVtcyBpbmNsdWRpbmcgaHVtYW4gZGVjaXNpb24gbWFraW5nLiBUZWFtcyBpbiB0aGlzIHRyYWNrIHNob3VsZCBoZWxwIHRvIGRpc2NvdmVyXG4gICAgICAgICAgICBTUG9GcyBhbmQgZGVzaWduIGZpeGVzLlxuICAgICAgICAgIDwvcD5cbiAgICAgICAgPC9kaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm91ciBjb2x1bW5zIHRyYWNrLWNhcmRcIj5cbiAgICAgICAgICA8aDU+VXJiYW4gSGFja3RpdmlzbTwvaDU+XG4gICAgICAgICAgPHA+XG4gICAgICAgICAgICBUaGlzIHRyYWNrIGRvZXNu4oCZdCByZXF1aXJlIHRvIHNwZW5kIHRoZSB3ZWVrZW5kIGluc2lkZSwgb24gdGhlIGNvbnRyYXJ5LCBwcm9qZWN0cyBzdWJtaXR0ZWQgZm9yIHRoaXNcbiAgICAgICAgICAgIHRyYWNrIGhhdmUgdG8gYmUgbWF0ZXJpYWxpemVkIGluIHRoZSBjaXR5IG9mIFByYWd1ZS4gVGhlIGluc3RhbGxhdGlvbnMgb3IgcGVyZm9ybWFuY2VzIGhhdmUgYmUgcmVsZXZhbnQgZm9yXG4gICAgICAgICAgICBQYXJhbGVsbmkgUG9saXMgYW5kIHNob3VsZCBlbmNvdXJhZ2UgYW4gaW5kZXBlbmRlbnQgc29jaWV0eSBvciBkaXNjb3ZlciBub25zZW5zZSBpbiB0aGUgdXJiYW4gaW5mcmFzdHJ1Y3R1cmUuXG4gICAgICAgICAgPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgYXdhcmQtY2FyZFwiPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwibWFuaWZlc3RvLXRpdGxlXCI+IE9wZW4gRXhwbG9pdCBBd2FyZHMgPC9oMz5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0d2VsdmUgY29sdW1uc1wiPlxuICAgICAgICAgIEdyb3VwIG9mIGN1cmF0b3JzIHdpbGwgcGljayBpbnRlcmVzdGluZyBleHBsb2l0cyB0aGF0IHdlcmUgcmV2ZWFsZWQgb3ZlciB0aGUgY291cnNlIG9mXG4gICAgICAgICAgbGFzdCB5ZWFyIGFuZCBhd2FyZCB0aG9zZSB3aG8gcmVsZWFzZWQgdGhlbS4gVGhlc2UgdGVhbXMgd2lsbCBiZSBjZXJlbW9uaWFsbHkgYXdhcmRlZCAocHJlc2VudCBvciByZW1vdGUpIGFuZFxuICAgICAgICAgIHB1YmxpY2x5IHByYWlzZWQgZm9yIHRoZWlyIGFjdGlvbnMgKHVubGVzcyB0aGV5IGRvbid0IHdhbnQgdG8pLiBBbnlvbmUgY2FuIG5vbWluYXRlIGEgcHJvamVjdCBkaXJlY3RseSB0byZuYnNwO1xuICAgICAgICAgIDxhIGhyZWY9XCJtYWlsdG86aGFja2F0b3NoaUBmbHlpbmdjaXJjdWl0LmNvbVwiPmhhY2thdG9zaGlAZmx5aW5nY2lyY3VpdC5jb208L2E+IVxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdlxuICAgICAgICBjbGFzc05hbWU9XCJyb3dcIlxuICAgICAgICBzdHlsZT17e1xuICAgICAgICAgIG1hcmdpblRvcDogYDQwcHhgLFxuICAgICAgICAgIG1hcmdpbkJvdHRvbTogYDQwcHhgLFxuICAgICAgICB9fVxuICAgICAgPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInR3ZWx2ZSBjb2x1bW5zXCI+XG4gICAgICAgICAgPGg1PlNpZ24tdXAgYXMgYSBoYWNrZXI8L2g1PlxuICAgICAgICAgIDxTdWJzY3JpYmVGb3JtIC8+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2XG4gICAgICAgIGNsYXNzTmFtZT1cInJvd1wiXG4gICAgICAgIHN0eWxlPXt7XG4gICAgICAgICAgbWFyZ2luVG9wOiBgNDBweGAsXG4gICAgICAgIH19XG4gICAgICA+XG4gICAgICAgIDxoNT5cbiAgICAgICAgICB7XCIgXCJ9XG4gICAgICAgICAgSm9pbiB1czogPGEgaHJlZj1cIm1haWx0bzpoYWNrYXRvc2hpQGZseWluZ2NpcmN1aXQuY29tXCI+aGFja2F0b3NoaUBmbHlpbmdjaXJjdWl0LmNvbTwvYT5cbiAgICAgICAgPC9oNT5cbiAgICAgIDwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAubWFuaWZlc3RvLXRpdGxlIHtcbiAgICAgICAgICBmb250LXdlaWdodDogNzAwO1xuICAgICAgICAgIGZvbnQtc2l6ZTogM3JlbTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5jb250ZW50IHtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxMDBweDtcbiAgICAgICAgfVxuICAgICAgICAudHJhY2stY2FyZCB7XG4gICAgICAgIH1cblxuICAgICAgICAudHJhY2stY2FyZCBkaXYge1xuICAgICAgICAgIHRleHQtYWxpZ246IGp1c3RpZnk7XG4gICAgICAgIH1cbiAgICAgICAgLmF3YXJkLWNhcmQge1xuICAgICAgICAgIG1hcmdpbi10b3A6IDQwcHg7XG4gICAgICAgIH1cbiAgICAgICAgLmF3YXJkLWNhcmQgZGl2IHtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBqdXN0aWZ5O1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXX0= */\n/*@ sourceURL=/Users/michaltakac/Projects/javascript/flying-circuit/components/Content.jsx */"));
 }
 
 /***/ }),
@@ -1057,79 +1057,200 @@ var _jsxFileName = "/Users/michaltakac/Projects/javascript/flying-circuit/compon
 
 function Manifesto() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2605146581" + " " + "container manifesto-section",
+    className: "jsx-2190836520" + " " + "container manifesto-section",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2605146581" + " " + "row manifesto",
+    className: "jsx-2190836520" + " " + "row manifesto",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
-    className: "jsx-2605146581" + " " + "manifesto-title",
+    className: "jsx-2190836520" + " " + "manifesto-title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, "Manifesto")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2605146581" + " " + "row manifesto-paragraph",
+    className: "jsx-2190836520" + " " + "row manifesto-paragraph",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-2605146581",
+    className: "jsx-2190836520",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
   }, "Paraleln\xED Polis' mission is to bring alternatives and tools for  preventing authoritarian tendencies in society. Hackatoshi\u2019s Flying Circuit is an intervention of cypherpunks into both virtual and physical public space to concentrate inspiration and knowledge to address sick parts of the system and fix them with solutions resulting from privacy and decentralized principles.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2605146581" + " " + "row manifesto-paragraph",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
-    className: "jsx-2605146581",
+    className: "jsx-2190836520" + " " + "row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, " True hackathon "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-2605146581",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-2190836520" + " " + "manifesto-title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, "Weekend-long hacking competition focused on privacy, individual freedom, decentralization and viable system exploits.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2605146581" + " " + "row manifesto-paragraph",
+  }, " True hackathon "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-2190836520",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "Weekend-long hacking competition focused on privacy, individual freedom, decentralization and viable system exploits. Each track will have ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
+    className: "jsx-2190836520",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, " three winning teams"), " awarded with prize money (cryptocurrency) & sw from the sponsors. Code submissions have to be open sourced."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-2190836520",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-2605146581",
+  }, "Hackers Congress Paralelni Polis ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "https://hcpp.cz",
+    target: "_blank",
+    className: "jsx-2190836520",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     },
     __self: this
-  }, "Hackers Congress Paralelni Polis (HCPP) has been successful in gathering great minds and thinkers from the Cypherpunk and Cryptoanarchist space. Yet all of the topics and ideas discussed during the congress are only as good as they can be applied, performed or achieved. Hackatoshis's Flying Circuit should motivate hackers, makers and developers to take their tools and skills into practice. The key goal of the hackathon is to prototype new concepts that will help people to protect their digital identity or exploit existing systems that were built to constrain personal freedom.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2605146581",
+  }, "(HCPP)"), " has been successful in gathering great minds and thinkers from the Cypherpunk and Cryptoanarchist space. Yet all of the topics and ideas discussed during the congress are only as good as they can be applied, performed or achieved. Hackatoshis's Flying Circuit should motivate hackers, makers and developers to take their tools and skills into practice. The key goal of the hackathon is to prototype new concepts that will help people to protect their digital identity or exploit existing systems that were built to constrain personal freedom.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2190836520" + " " + "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
     __self: this
-  }, ".manifesto-section.jsx-2605146581{margin-top:50px;}.manifesto.jsx-2605146581{text-align:center;}.manifesto-title.jsx-2605146581{font-weight:700;font-size:3rem;}.manifesto-paragraph.jsx-2605146581{font-size:1.9rem;margin-top:40px;}.manifesto-paragraph.jsx-2605146581 h5.jsx-2605146581{font-weight:500;font-size:2.5rem;}.join-us.jsx-2605146581{margin-top:50px;}.join-us.jsx-2605146581 button.jsx-2605146581{margin:5px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9taWNoYWx0YWthYy9Qcm9qZWN0cy9qYXZhc2NyaXB0L2ZseWluZy1jaXJjdWl0L2NvbXBvbmVudHMvTWFuaWZlc3RvLmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE2Q2tCLEFBRzJCLEFBSUUsQUFJRixBQUtDLEFBS0QsQUFJQSxBQUdMLFdBQ2IsS0F6QkEsQUFRaUIsQUFVRSxBQUluQixDQVRrQixDQVRsQixhQUtBLEVBS0EsQUFLQSIsImZpbGUiOiIvVXNlcnMvbWljaGFsdGFrYWMvUHJvamVjdHMvamF2YXNjcmlwdC9mbHlpbmctY2lyY3VpdC9jb21wb25lbnRzL01hbmlmZXN0by5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XG5pbXBvcnQgQW5jaG9yTGluayBmcm9tIFwicmVhY3QtYW5jaG9yLWxpbmstc21vb3RoLXNjcm9sbFwiO1xuXG5leHBvcnQgZnVuY3Rpb24gTWFuaWZlc3RvKCkge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyIG1hbmlmZXN0by1zZWN0aW9uXCI+XG5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93IG1hbmlmZXN0b1wiPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwibWFuaWZlc3RvLXRpdGxlXCI+TWFuaWZlc3RvPC9oMz5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgbWFuaWZlc3RvLXBhcmFncmFwaFwiPlxuICAgICAgICA8cD5cbiAgICAgICAgICBQYXJhbGVsbsOtIFBvbGlzJyBtaXNzaW9uIGlzIHRvIGJyaW5nIGFsdGVybmF0aXZlcyBhbmQgdG9vbHMgZm9yICBwcmV2ZW50aW5nIGF1dGhvcml0YXJpYW4gdGVuZGVuY2llcyBpbiBzb2NpZXR5LlxuICAgICAgICAgIEhhY2thdG9zaGnigJlzIEZseWluZyBDaXJjdWl0IGlzIGFuIGludGVydmVudGlvbiBvZiBjeXBoZXJwdW5rcyBpbnRvIGJvdGggdmlydHVhbCBhbmQgcGh5c2ljYWwgcHVibGljIHNwYWNlIHRvXG4gICAgICAgICAgY29uY2VudHJhdGUgaW5zcGlyYXRpb24gYW5kIGtub3dsZWRnZSB0byBhZGRyZXNzIHNpY2sgcGFydHMgb2YgdGhlIHN5c3RlbSBhbmQgZml4IHRoZW1cbiAgICAgICAgICB3aXRoIHNvbHV0aW9ucyByZXN1bHRpbmcgZnJvbSBwcml2YWN5IGFuZCBkZWNlbnRyYWxpemVkIHByaW5jaXBsZXMuXG4gICAgICAgIDwvcD5cbiAgICAgIDwvZGl2PlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvdyBtYW5pZmVzdG8tcGFyYWdyYXBoXCI+XG4gICAgICAgIDxoNT4gVHJ1ZSBoYWNrYXRob24gPC9oNT5cbiAgICAgICAgPHA+XG4gICAgICAgICAgV2Vla2VuZC1sb25nIGhhY2tpbmcgY29tcGV0aXRpb24gZm9jdXNlZCBvbiBwcml2YWN5LCBpbmRpdmlkdWFsIGZyZWVkb20sIGRlY2VudHJhbGl6YXRpb24gYW5kIHZpYWJsZSBzeXN0ZW1cbiAgICAgICAgICBleHBsb2l0cy5cbiAgICAgICAgPC9wPlxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93IG1hbmlmZXN0by1wYXJhZ3JhcGhcIj5cbiAgICAgICAgPHA+XG4gICAgICAgICAgSGFja2VycyBDb25ncmVzcyBQYXJhbGVsbmkgUG9saXMgKEhDUFApIGhhcyBiZWVuIHN1Y2Nlc3NmdWwgaW4gZ2F0aGVyaW5nIGdyZWF0IG1pbmRzIGFuZCB0aGlua2VycyBmcm9tIHRoZVxuICAgICAgICAgIEN5cGhlcnB1bmsgYW5kIENyeXB0b2FuYXJjaGlzdCBzcGFjZS4gWWV0IGFsbCBvZiB0aGUgdG9waWNzIGFuZCBpZGVhcyBkaXNjdXNzZWQgZHVyaW5nIHRoZSBjb25ncmVzcyBhcmUgb25seVxuICAgICAgICAgIGFzIGdvb2QgYXMgdGhleSBjYW4gYmUgYXBwbGllZCwgcGVyZm9ybWVkIG9yIGFjaGlldmVkLiBIYWNrYXRvc2hpcydzIEZseWluZyBDaXJjdWl0IHNob3VsZCBtb3RpdmF0ZSBoYWNrZXJzLCBtYWtlcnMgYW5kXG4gICAgICAgICAgZGV2ZWxvcGVycyB0byB0YWtlIHRoZWlyIHRvb2xzIGFuZCBza2lsbHMgaW50byBwcmFjdGljZS4gVGhlIGtleSBnb2FsIG9mIHRoZSBoYWNrYXRob24gaXMgdG8gcHJvdG90eXBlIG5ld1xuICAgICAgICAgIGNvbmNlcHRzIHRoYXQgd2lsbCBoZWxwIHBlb3BsZSB0byBwcm90ZWN0IHRoZWlyIGRpZ2l0YWwgaWRlbnRpdHkgb3IgZXhwbG9pdCBleGlzdGluZyBzeXN0ZW1zIHRoYXQgd2VyZSBidWlsdCB0b1xuICAgICAgICAgIGNvbnN0cmFpbiBwZXJzb25hbCBmcmVlZG9tLlxuICAgICAgICA8L3A+XG4gICAgICA8L2Rpdj5cbiAgICAgIHsvKjxkaXYgY2xhc3NOYW1lPVwicm93IGpvaW4tdXNcIj4qL31cbiAgICAgIHsvKiAgLyEqPExpbmsgaHJlZj1cIi9jb2RlLW9mLWNvbmR1Y3RcIj4qIS8qL31cbiAgICAgIHsvKiAgLyEqICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0blwiPkNvZGUgb2YgY29uZHVjdDwvYnV0dG9uPiohLyovfVxuICAgICAgey8qICAvISo8L0xpbms+KiEvKi99XG4gICAgICB7LyogIDxBbmNob3JMaW5rIG9mZnNldD1cIjEwMFwiIGhyZWY9XCIjdGlja2V0c1wiPiovfVxuICAgICAgey8qICAgIDxidXR0b24+Sm9pbiB1cyE8L2J1dHRvbj4qL31cbiAgICAgIHsvKiAgPC9BbmNob3JMaW5rPiovfVxuICAgICAgey8qPC9kaXY+Ki99XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5tYW5pZmVzdG8tc2VjdGlvbiB7XG4gICAgICAgICAgbWFyZ2luLXRvcDogNTBweDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5tYW5pZmVzdG8ge1xuICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgfVxuXG4gICAgICAgIC5tYW5pZmVzdG8tdGl0bGUge1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA3MDA7XG4gICAgICAgICAgZm9udC1zaXplOiAzcmVtO1xuICAgICAgICB9XG5cbiAgICAgICAgLm1hbmlmZXN0by1wYXJhZ3JhcGgge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMS45cmVtO1xuICAgICAgICAgIG1hcmdpbi10b3A6IDQwcHg7XG4gICAgICAgIH1cblxuICAgICAgICAubWFuaWZlc3RvLXBhcmFncmFwaCBoNSB7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgICAgICAgICBmb250LXNpemU6IDIuNXJlbTtcbiAgICAgICAgfVxuICAgICAgICAuam9pbi11cyB7XG4gICAgICAgICAgbWFyZ2luLXRvcDogNTBweDtcbiAgICAgICAgfVxuICAgICAgICAuam9pbi11cyBidXR0b24ge1xuICAgICAgICAgIG1hcmdpbjogNXB4O1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59Il19 */\n/*@ sourceURL=/Users/michaltakac/Projects/javascript/flying-circuit/components/Manifesto.jsx */"));
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-2190836520" + " " + "manifesto-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "Prize money"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-2190836520",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Each track will have 3 winning teams which means ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
+    className: "jsx-2190836520",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, "9 winning teams"), " in total! The winners will be picked on the last day (July 21", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("sup", {
+    className: "jsx-2190836520",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, "st"), ") by a group of judges. The criteria will vary based on the competition track. The current total prize money is set to $5100 and may be extended if we find more sponsors.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2190836520" + " " + "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2190836520" + " " + "four columns track-card",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
+    className: "jsx-2190836520",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "1", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("sup", {
+    className: "jsx-2190836520",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, "st"), " = $1000")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2190836520" + " " + "four columns track-card",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
+    className: "jsx-2190836520",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, "2", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("sup", {
+    className: "jsx-2190836520",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, "nd"), " = $500")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2190836520" + " " + "four columns track-card",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {
+    className: "jsx-2190836520",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "3", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("sup", {
+    className: "jsx-2190836520",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, "rd"), " = $200"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2190836520" + " " + "row manifesto-paragraph",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2190836520",
+    __self: this
+  }, ".manifesto-section.jsx-2190836520{margin-top:50px;}.manifesto.jsx-2190836520{text-align:center;}.manifesto-title.jsx-2190836520{font-weight:700;font-size:3rem;}.manifesto-paragraph.jsx-2190836520{font-size:1.9rem;margin-top:40px;}.manifesto-paragraph.jsx-2190836520 h5.jsx-2190836520{font-weight:500;font-size:2.5rem;}.join-us.jsx-2190836520{margin-top:50px;}.join-us.jsx-2190836520 button.jsx-2190836520{margin:5px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9taWNoYWx0YWthYy9Qcm9qZWN0cy9qYXZhc2NyaXB0L2ZseWluZy1jaXJjdWl0L2NvbXBvbmVudHMvTWFuaWZlc3RvLmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE2RWtCLEFBRzJCLEFBSUUsQUFJRixBQUtDLEFBS0QsQUFJQSxBQUdMLFdBQ2IsS0F6QkEsQUFRaUIsQUFVRSxBQUluQixDQVRrQixDQVRsQixhQUtBLEVBS0EsQUFLQSIsImZpbGUiOiIvVXNlcnMvbWljaGFsdGFrYWMvUHJvamVjdHMvamF2YXNjcmlwdC9mbHlpbmctY2lyY3VpdC9jb21wb25lbnRzL01hbmlmZXN0by5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XG5pbXBvcnQgQW5jaG9yTGluayBmcm9tIFwicmVhY3QtYW5jaG9yLWxpbmstc21vb3RoLXNjcm9sbFwiO1xuXG5leHBvcnQgZnVuY3Rpb24gTWFuaWZlc3RvKCkge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyIG1hbmlmZXN0by1zZWN0aW9uXCI+XG5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93IG1hbmlmZXN0b1wiPlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwibWFuaWZlc3RvLXRpdGxlXCI+TWFuaWZlc3RvPC9oMz5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgbWFuaWZlc3RvLXBhcmFncmFwaFwiPlxuICAgICAgICA8cD5cbiAgICAgICAgICBQYXJhbGVsbsOtIFBvbGlzJyBtaXNzaW9uIGlzIHRvIGJyaW5nIGFsdGVybmF0aXZlcyBhbmQgdG9vbHMgZm9yICBwcmV2ZW50aW5nIGF1dGhvcml0YXJpYW4gdGVuZGVuY2llcyBpbiBzb2NpZXR5LlxuICAgICAgICAgIEhhY2thdG9zaGnigJlzIEZseWluZyBDaXJjdWl0IGlzIGFuIGludGVydmVudGlvbiBvZiBjeXBoZXJwdW5rcyBpbnRvIGJvdGggdmlydHVhbCBhbmQgcGh5c2ljYWwgcHVibGljIHNwYWNlIHRvXG4gICAgICAgICAgY29uY2VudHJhdGUgaW5zcGlyYXRpb24gYW5kIGtub3dsZWRnZSB0byBhZGRyZXNzIHNpY2sgcGFydHMgb2YgdGhlIHN5c3RlbSBhbmQgZml4IHRoZW1cbiAgICAgICAgICB3aXRoIHNvbHV0aW9ucyByZXN1bHRpbmcgZnJvbSBwcml2YWN5IGFuZCBkZWNlbnRyYWxpemVkIHByaW5jaXBsZXMuXG4gICAgICAgIDwvcD5cblxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgIDxoMyBjbGFzc05hbWU9XCJtYW5pZmVzdG8tdGl0bGVcIj4gVHJ1ZSBoYWNrYXRob24gPC9oMz5cbiAgICAgICAgPHA+XG4gICAgICAgICAgV2Vla2VuZC1sb25nIGhhY2tpbmcgY29tcGV0aXRpb24gZm9jdXNlZCBvbiBwcml2YWN5LCBpbmRpdmlkdWFsIGZyZWVkb20sIGRlY2VudHJhbGl6YXRpb24gYW5kIHZpYWJsZSBzeXN0ZW1cbiAgICAgICAgICBleHBsb2l0cy4gRWFjaCB0cmFjayB3aWxsIGhhdmUgPHU+IHRocmVlIHdpbm5pbmcgdGVhbXM8L3U+IGF3YXJkZWQgd2l0aCBwcml6ZSBtb25leSAoY3J5cHRvY3VycmVuY3kpICYgc3dcbiAgICAgICAgICBmcm9tIHRoZSBzcG9uc29ycy4gQ29kZSBzdWJtaXNzaW9ucyBoYXZlIHRvIGJlIG9wZW4gc291cmNlZC5cbiAgICAgICAgPC9wPlxuICAgICAgICA8cD5cbiAgICAgICAgICBIYWNrZXJzIENvbmdyZXNzIFBhcmFsZWxuaSBQb2xpcyA8YSBocmVmPVwiaHR0cHM6Ly9oY3BwLmN6XCIgdGFyZ2V0PVwiX2JsYW5rXCI+KEhDUFApPC9hPiBoYXMgYmVlbiBzdWNjZXNzZnVsIGluIGdhdGhlcmluZyBncmVhdCBtaW5kcyBhbmQgdGhpbmtlcnMgZnJvbSB0aGVcbiAgICAgICAgICBDeXBoZXJwdW5rIGFuZCBDcnlwdG9hbmFyY2hpc3Qgc3BhY2UuIFlldCBhbGwgb2YgdGhlIHRvcGljcyBhbmQgaWRlYXMgZGlzY3Vzc2VkIGR1cmluZyB0aGUgY29uZ3Jlc3MgYXJlIG9ubHlcbiAgICAgICAgICBhcyBnb29kIGFzIHRoZXkgY2FuIGJlIGFwcGxpZWQsIHBlcmZvcm1lZCBvciBhY2hpZXZlZC4gSGFja2F0b3NoaXMncyBGbHlpbmcgQ2lyY3VpdCBzaG91bGQgbW90aXZhdGUgaGFja2VycywgbWFrZXJzIGFuZFxuICAgICAgICAgIGRldmVsb3BlcnMgdG8gdGFrZSB0aGVpciB0b29scyBhbmQgc2tpbGxzIGludG8gcHJhY3RpY2UuIFRoZSBrZXkgZ29hbCBvZiB0aGUgaGFja2F0aG9uIGlzIHRvIHByb3RvdHlwZSBuZXdcbiAgICAgICAgICBjb25jZXB0cyB0aGF0IHdpbGwgaGVscCBwZW9wbGUgdG8gcHJvdGVjdCB0aGVpciBkaWdpdGFsIGlkZW50aXR5IG9yIGV4cGxvaXQgZXhpc3Rpbmcgc3lzdGVtcyB0aGF0IHdlcmUgYnVpbHQgdG9cbiAgICAgICAgICBjb25zdHJhaW4gcGVyc29uYWwgZnJlZWRvbS5cbiAgICAgICAgPC9wPlxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgIDxoMyBjbGFzc05hbWU9XCJtYW5pZmVzdG8tdGl0bGVcIj5Qcml6ZSBtb25leTwvaDM+XG4gICAgICAgIDxwPlxuICAgICAgICAgIEVhY2ggdHJhY2sgd2lsbCBoYXZlIDMgd2lubmluZyB0ZWFtcyB3aGljaCBtZWFucyA8dT45IHdpbm5pbmcgdGVhbXM8L3U+IGluIHRvdGFsISBUaGUgd2lubmVycyB3aWxsIGJlIHBpY2tlZCBvbiB0aGUgbGFzdCBkYXkgKEp1bHkgMjE8c3VwPnN0PC9zdXA+KVxuICAgICAgICAgIGJ5IGEgZ3JvdXAgb2YganVkZ2VzLiBUaGUgY3JpdGVyaWEgd2lsbCB2YXJ5IGJhc2VkIG9uIHRoZSBjb21wZXRpdGlvbiB0cmFjay4gVGhlIGN1cnJlbnQgdG90YWwgcHJpemUgbW9uZXkgaXMgc2V0IHRvICQ1MTAwXG4gICAgICAgICAgYW5kIG1heSBiZSBleHRlbmRlZCBpZiB3ZSBmaW5kIG1vcmUgc3BvbnNvcnMuXG4gICAgICAgIDwvcD5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3dcIj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvdXIgY29sdW1ucyB0cmFjay1jYXJkXCI+XG4gICAgICAgICAgPGg1PlxuICAgICAgICAgICAgMTxzdXA+c3Q8L3N1cD4gPSAkMTAwMFxuICAgICAgICAgIDwvaDU+XG4gICAgICAgIDwvZGl2PlxuXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm91ciBjb2x1bW5zIHRyYWNrLWNhcmRcIj5cbiAgICAgICAgICA8aDU+XG4gICAgICAgICAgICAyPHN1cD5uZDwvc3VwPiA9ICQ1MDBcbiAgICAgICAgICA8L2g1PlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvdXIgY29sdW1ucyB0cmFjay1jYXJkXCI+XG4gICAgICAgICAgPGg1PlxuICAgICAgICAgICAgMzxzdXA+cmQ8L3N1cD4gPSAkMjAwXG4gICAgICAgICAgPC9oNT5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgbWFuaWZlc3RvLXBhcmFncmFwaFwiPlxuXG4gICAgICA8L2Rpdj5cbiAgICAgIHsvKjxkaXYgY2xhc3NOYW1lPVwicm93IGpvaW4tdXNcIj4qL31cbiAgICAgIHsvKiAgLyEqPExpbmsgaHJlZj1cIi9jb2RlLW9mLWNvbmR1Y3RcIj4qIS8qL31cbiAgICAgIHsvKiAgLyEqICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0blwiPkNvZGUgb2YgY29uZHVjdDwvYnV0dG9uPiohLyovfVxuICAgICAgey8qICAvISo8L0xpbms+KiEvKi99XG4gICAgICB7LyogIDxBbmNob3JMaW5rIG9mZnNldD1cIjEwMFwiIGhyZWY9XCIjdGlja2V0c1wiPiovfVxuICAgICAgey8qICAgIDxidXR0b24+Sm9pbiB1cyE8L2J1dHRvbj4qL31cbiAgICAgIHsvKiAgPC9BbmNob3JMaW5rPiovfVxuICAgICAgey8qPC9kaXY+Ki99XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5tYW5pZmVzdG8tc2VjdGlvbiB7XG4gICAgICAgICAgbWFyZ2luLXRvcDogNTBweDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5tYW5pZmVzdG8ge1xuICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgfVxuXG4gICAgICAgIC5tYW5pZmVzdG8tdGl0bGUge1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA3MDA7XG4gICAgICAgICAgZm9udC1zaXplOiAzcmVtO1xuICAgICAgICB9XG5cbiAgICAgICAgLm1hbmlmZXN0by1wYXJhZ3JhcGgge1xuICAgICAgICAgIGZvbnQtc2l6ZTogMS45cmVtO1xuICAgICAgICAgIG1hcmdpbi10b3A6IDQwcHg7XG4gICAgICAgIH1cblxuICAgICAgICAubWFuaWZlc3RvLXBhcmFncmFwaCBoNSB7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgICAgICAgICBmb250LXNpemU6IDIuNXJlbTtcbiAgICAgICAgfVxuICAgICAgICAuam9pbi11cyB7XG4gICAgICAgICAgbWFyZ2luLXRvcDogNTBweDtcbiAgICAgICAgfVxuICAgICAgICAuam9pbi11cyBidXR0b24ge1xuICAgICAgICAgIG1hcmdpbjogNXB4O1xuICAgICAgICB9XG5cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/michaltakac/Projects/javascript/flying-circuit/components/Manifesto.jsx */"));
 }
 
 /***/ }),
