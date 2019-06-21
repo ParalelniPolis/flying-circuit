@@ -1,6 +1,6 @@
-import { useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 import { ScrollIcon } from "./ScrollIcon";
-import {HeroBlackBg} from "./HeroBlackBg";
+import { HeroBlackBg } from "./HeroBlackBg";
 
 const initialState = {
   innerHeight: 0,
@@ -10,20 +10,30 @@ const initialState = {
   lockScroll: true,
   logoWidth: 80,
   logoMarginLeft: 40,
-  logoIntensity: 100
+  logoIntensity: 100,
 };
+
+let scrollTo = null;
 
 export function Intro() {
   const [state, setState] = useState(initialState);
 
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      scrollTo = id => {
+        document.getElementById(id).scrollIntoView({
+          behavior: "smooth"
+        });
+      };
+    }
+
     setState({ ...state, innerHeight: window.innerHeight });
 
     const onScroll = () => {
       const lockHeight = window.innerHeight + state.sectionTopMargin;
-      var logoIntensity = 100 - (window.scrollY / 10)*2;
+      var logoIntensity = 100 - (window.scrollY / 10) * 2;
       // console.log(logoIntensity);
-      setState({...state, logoIntensity: logoIntensity});
+      setState({ ...state, logoIntensity: logoIntensity });
 
       // var logoOpacityA = window.scrollY / 1000;
       // var logoWidth = window.scrollY;
@@ -50,38 +60,73 @@ export function Intro() {
       <div className="intro">
         <div className="u-full-width header row">
           <div className="header-logos" id="leftTop">
-            <img src="/static/img/institute-presents-black.png"></img>
+            <img src="/static/img/institute-presents-black.png" />
           </div>
 
           <div className="header-logos" id="rightTop">
-            <img src="/static/img/paralelnipolis-logo.png"></img>
+            <img src="/static/img/paralelnipolis-logo.png" />
+          </div>
+
+          <div className="container">
+            <ul className="u-pull-right">
+              <li>
+                <a onClick={() => {
+                    if (scrollTo) {
+                      scrollTo("manifesto");
+                    }
+                  }}>Manifesto</a>
+              </li>
+              <li>
+                <a onClick={() => {
+                    if (scrollTo) {
+                      scrollTo("content");
+                    }
+                  }}>Topics</a>
+              </li>
+              <li>
+                <a
+                  onClick={() => {
+                    if (scrollTo) {
+                      scrollTo("signup");
+                    }
+                  }}
+                >
+                  Sign Up
+                </a>
+              </li>
+              <li>
+                <a onClick={() => {
+                    if (scrollTo) {
+                      scrollTo("sponsors");
+                    }
+                  }}>Sponsors</a>
+              </li>
+            </ul>
           </div>
         </div>
 
         <div className="info row">
           <div className="u-full-width column">
-          July 19<sup>th</sup>-21<sup>st</sup>, 2019, Prague, CZ
+            July 19<sup>th</sup>-21<sup>st</sup>, 2019, Prague, CZ
           </div>
         </div>
 
         <div className="container sticky">
-
           <div className="intro-body row sticky">
-              {/*<img src="/static/img/hfc-text-bw-transparent.png"*/}
-              {/*   style={{*/}
-              {/*     width: `${state.logoWidth}%`,*/}
-              {/*     // marginLeft: `-${state.logoMarginLeft}%`,*/}
-              {/*}}/>*/}
-              <img src="/static/img/hfc-text-color-transparent.png"
-                 style={{
-                   width: `${state.logoWidth}%`,
-                   // marginLeft: `-${state.logoMarginLeft}%`,
-                   filter: `grayscale(${state.logoIntensity}%)`
-                   // opacity: `${state.logoOpacity}`
-
-                   }}
-              />
-
+            {/*<img src="/static/img/hfc-text-bw-transparent.png"*/}
+            {/*   style={{*/}
+            {/*     width: `${state.logoWidth}%`,*/}
+            {/*     // marginLeft: `-${state.logoMarginLeft}%`,*/}
+            {/*}}/>*/}
+            <img
+              src="/static/img/hfc-text-color-transparent.png"
+              style={{
+                width: `${state.logoWidth}%`,
+                // marginLeft: `-${state.logoMarginLeft}%`,
+                filter: `grayscale(${state.logoIntensity}%)`,
+                // opacity: `${state.logoOpacity}`
+              }}
+            />
           </div>
           {/*<div*/}
           {/*  className="scroll-down row"*/}
@@ -99,15 +144,14 @@ export function Intro() {
           <div className="row u-full-width black">
             <img className="flowers" src="/static/img/flowers.png" />
             {/*<div className="test">*/}
-              <img className="head sticky" src="/static/img/head.png" />
+            <img className="head sticky" src="/static/img/head.png" />
             {/*</div>*/}
           </div>
         </div>
       </div>
 
       <style jsx>{`
-
-        .test{
+        .test {
           position: relative;
           overflow: hidden;
           margin-top: -80px;
@@ -122,8 +166,8 @@ export function Intro() {
           position: sticky;
           top: 0;
         }
-        .intro{
-        background: white;
+        .intro {
+          background: white;
           background: linear-gradient(white, black);
           // min-height: -webkit-fill-available;
           // min-height: -moz-available;
@@ -141,11 +185,13 @@ export function Intro() {
           height: 120px;
           z-index: 200;
         }
+        .header a {
+          cursor: pointer;
+        }
 
         .header-logos {
           display: inline-block;
           margin-bottom: 45px;
-
         }
         .header-logos img {
           max-width: 130px;
@@ -175,7 +221,6 @@ export function Intro() {
         }
 
         .scroll-down {
-
         }
 
         .black {
@@ -195,6 +240,30 @@ export function Intro() {
           z-index: 100;
           // object-fit: contain;
           // overflow:hidden;
+        }
+
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: black;
+          text-align: center;
+          font-size: 1.6rem;
+          padding: 10px 20px;
+          text-decoration: none;
+        }
+
+        li a:hover {
+          color: #404040;
         }
       `}</style>
     </div>

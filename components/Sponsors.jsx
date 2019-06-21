@@ -4,10 +4,10 @@ export function Sponsors() {
       <div className="row">
         <h3>Sponsors</h3>
         <div className="one-half column sponsor-card">
-          <img className="sponsor-image" src="/static/img/sponsors/polynom-logo.svg" alt="Polynom" />
+        <a href="https://polynom.com/"><img className="sponsor-image" src="/static/img/sponsors/polynom-logo.svg" alt="Polynom" /></a>
         </div>
         <div className="one-half column sponsor-card">
-          <img className="sponsor-image whiteblock-logo" src="/static/img/sponsors/whiteblock-logo-light.png" alt="Whiteblock" />
+        <a href="https://whiteblock.io"><img className="sponsor-image whiteblock-logo" src="/static/img/sponsors/whiteblock-logo-light.png" alt="Whiteblock" /></a>
         </div>
       </div>
 
