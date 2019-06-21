@@ -11,6 +11,7 @@ import { Section } from "../components/Section";
 import { Speakers } from "../components/Speakers";
 import { Footer } from "../components/Footer";
 import { SignUp } from "../components/SignUp";
+import { Location } from "../components/Location";
 
 export default () => (
   <div>
@@ -22,14 +23,17 @@ export default () => (
     <Section id="content">
       <Content />
     </Section>
+    <Section id="location">
+      <Location />
+    </Section>
     <Section id="signup">
       <SignUp />
     </Section>
-    <Section id="partners">
-      <Partners />
-    </Section>
     <Section id="sponsors">
       <Sponsors />
+    </Section>
+    <Section id="partners">
+      <Partners />
     </Section>
     {/*<Section id="hackerspaces">
       <Hackerspaces />

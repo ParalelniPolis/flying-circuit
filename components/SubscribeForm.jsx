@@ -107,7 +107,7 @@ export function SubscribeForm() {
       />
 
       <label className="u-pull-left" htmlFor="track-select">
-        Preferred track
+        Preferred track <span className="normal-text">(can be changed/picked on-site)</span>
       </label>
 
       <select className="u-full-width" id="track-select" ref={trackRef}>
@@ -132,7 +132,7 @@ export function SubscribeForm() {
         ref={descRef}
         type="text"
         name="description"
-        placeholder="What you'd like to hack?"
+        placeholder={`What would you like to hack? "I don't know yet" is also an acceptable answer ;)`}
         id="project-description-input"
       />
 
@@ -170,6 +170,9 @@ export function SubscribeForm() {
           color: #777777;
           border: 1px solid #777777;
           text-decoration: line-through;
+        }
+        .normal-text {
+          font-weight: 300;
         }
       `}</style>
       <style jsx global>{`
