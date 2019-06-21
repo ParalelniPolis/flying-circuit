@@ -15,17 +15,6 @@ export function SignUp() {
           <SubscribeForm />
         </div>
       </div>
-      <div
-        className="row"
-        style={{
-          marginTop: `40px`,
-        }}
-      >
-        <h5>
-          {" "}
-          Join us: <a href="mailto:hackatoshi@flyingcircuit.com">hackatoshi@flyingcircuit.com</a>
-        </h5>
-      </div>
       <style jsx>{`
         .signup {
           margin-bottom: 200px;

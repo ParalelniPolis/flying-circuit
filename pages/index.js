@@ -23,9 +23,6 @@ export default () => (
     <Section id="content">
       <Content />
     </Section>
-    <Section id="location">
-      <Location />
-    </Section>
     <Section id="signup">
       <SignUp />
     </Section>
@@ -34,6 +31,9 @@ export default () => (
     </Section>
     <Section id="partners">
       <Partners />
+    </Section>
+    <Section id="location">
+      <Location />
     </Section>
     {/*<Section id="hackerspaces">
       <Hackerspaces />
@@ -47,6 +47,19 @@ export default () => (
     <Section id="schedule">
       <Schedule />
     </Section>*/}
+    <Section id="join-us">
+      <div
+        className="row"
+        style={{
+          margin: `40px`,
+        }}
+      >
+        <h5>
+          {" "}
+          Join us: <a href="mailto:hackatoshi@flyingcircuit.com">hackatoshi@flyingcircuit.com</a>
+        </h5>
+      </div>
+    </Section>
     {/*<Footer />*/}
     <style global jsx>{`
       body {

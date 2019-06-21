@@ -67,8 +67,8 @@ export function Intro() {
             <img src="/static/img/paralelnipolis-logo.png" />
           </div>
 
-          <div className="container">
-            <ul className="u-pull-right">
+          <div className="container navbar">
+            <ul className="">
               <li>
                 <a onClick={() => {
                     if (scrollTo) {
@@ -242,11 +242,16 @@ export function Intro() {
           // overflow:hidden;
         }
 
+        .navbar {
+          text-align: center;
+        }
+
         ul {
           list-style-type: none;
-          margin: 0;
+          margin: 0 auto;
           padding: 0;
           overflow: hidden;
+          display: inline-block;
         }
 
         li {
@@ -258,12 +263,14 @@ export function Intro() {
           color: black;
           text-align: center;
           font-size: 1.6rem;
-          padding: 10px 20px;
+          margin: 10px 20px;
+          padding: 10px 10px;
           text-decoration: none;
         }
 
         li a:hover {
-          color: #404040;
+          color: #6b6b6b;
+          border-bottom: 2px solid #6b6b6b;
         }
       `}</style>
     </div>

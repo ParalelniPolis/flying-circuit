@@ -40,16 +40,8 @@ export function Partners() {
           </a>
         </div>
         <div className="one-third column partner-card">
-          <a href="https://www.redbull.com/">
-            <img className="partner-image" src="/static/img/partners/redbullcom-logo.svg" alt="RedBull" />
-          </a>
-        </div>
-      </div>
-
-      <div className="row">
-        <div className="column partner-card full-node-logo-card">
           <a href="https://fullnode.berlin/">
-            <img className="partner-image" src="/static/img/hackerspaces/fn_logo_rgb.svg" alt="Full Node" />
+          <img className="partner-image fullnode-logo" src="/static/img/hackerspaces/fn_logo_rgb.svg" alt="Full Node" />
           </a>
         </div>
       </div>
@@ -73,8 +65,8 @@ export function Partners() {
         .second-row-margin {
           margin: 60px 0;
         }
-        .full-node-logo-card {
-          margin: 60px 0 0 -10px;
+        .fullnode-logo {
+          margin-top: -30px;
         }
       `}</style>
     </div>
