@@ -67,7 +67,7 @@ export function Intro() {
             <img src="/static/img/paralelnipolis-logo.png" />
           </div>
 
-          <div className="container navbar">
+          <div className="navbar">
             <ul className="">
               <li>
                 <a onClick={() => {
@@ -244,6 +244,12 @@ export function Intro() {
 
         .navbar {
           text-align: center;
+          position: relative;
+          width: 100%;
+          max-width: 960px;
+          margin: 0 auto;
+          padding: 0 20px;
+          box-sizing: border-box;
         }
 
         ul {
@@ -266,6 +272,49 @@ export function Intro() {
           margin: 10px 20px;
           padding: 10px 10px;
           text-decoration: none;
+        }
+
+        @media (max-width: 767px) {
+          .navbar {
+            text-align: center;
+            position: relative;
+            width: 100%;
+            max-width: 960px;
+            padding: 0;
+            justify-content: space-evenly;
+            flex: auto;
+            display: flex;
+          }
+
+          .header-logos {
+            margin-bottom: 25px;
+          }
+
+          .info {
+            margin-top: 100px;
+          }
+
+          li a {
+            display: block;
+            color: black;
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 5px 5px;
+            padding: 5px 3px;
+            text-decoration: none;
+          }
+        }
+
+        @media (max-width: 400px) {
+          li a {
+            display: block;
+            color: black;
+            text-align: center;
+            font-size: 1.1rem;
+            margin: 5px 5px;
+            padding: 5px 3px;
+            text-decoration: none;
+          }
         }
 
         li a:hover {

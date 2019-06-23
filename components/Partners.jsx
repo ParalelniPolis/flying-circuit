@@ -3,12 +3,12 @@ export function Partners() {
     <div className="container partners">
       <div className="row">
         <h3>Partners {"&"} Community</h3>
-        <div className="one-third column partner-card">
+        <div className="one-half column partner-card">
           <a href="https://www.jetbrains.com/">
             <img className="partner-image" src="/static/img/partners/jetbrains-blackandwhite.png" alt="JetBrains" />
           </a>
         </div>
-        <div className="one-third column partner-card">
+        <div className="one-half column partner-card">
           <a href="https://paralelnapoliskosice.sk/">
             <img
               className="partner-image ppke-logo"
@@ -17,7 +17,10 @@ export function Partners() {
             />
           </a>
         </div>
-        <div className="one-third column partner-card">
+      </div>
+
+      <div className="row second-row-margin">
+      <div className="one-half column partner-card">
           <a href="https://www.progressbar.sk/">
             <img
               className="partner-image progressbar-logo"
@@ -26,20 +29,20 @@ export function Partners() {
             />
           </a>
         </div>
+        <div className="one-half column partner-card">
+          <a href="https://www.blockchainlegal.cz/">
+            <img className="partner-image blockchain-legal-image" src="/static/img/partners/blockchainlegal.png" alt="Blockchain Legal" />
+          </a>
+        </div>
       </div>
 
-      <div className="row second-row-margin">
-        <div className="one-third column partner-card">
-          <a href="https://www.blockchainlegal.cz/">
-            <img className="partner-image" src="/static/img/partners/blockchainlegal.png" alt="Blockchain Legal" />
-          </a>
-        </div>
-        <div className="one-third column partner-card">
+      <div className="row third-row-margin">
+        <div className="one-half column partner-card">
           <a href="https://bounties.network/">
-            <img className="partner-image" src="/static/img/partners/bounties-dot-network.svg" alt="Bounties.network" />
+            <img className="partner-image bounties-logo" src="/static/img/partners/bounties-dot-network.svg" alt="Bounties.network" />
           </a>
         </div>
-        <div className="one-third column partner-card">
+        <div className="one-half column partner-card">
           <a href="https://fullnode.berlin/">
           <img className="partner-image fullnode-logo" src="/static/img/hackerspaces/fn_logo_rgb.svg" alt="Full Node" />
           </a>
@@ -60,13 +63,31 @@ export function Partners() {
           margin-top: 80px;
         }
         .progressbar-logo {
-          margin-top: 60px;
+          margin-top: -15px;
         }
         .second-row-margin {
+          margin: 20px 0;
+        }
+        .third-row-margin {
           margin: 60px 0;
         }
         .fullnode-logo {
           margin-top: -30px;
+        }
+
+        @media (max-width: 549px) {
+          .ppke-logo {
+            margin-top: 20px;
+          }
+
+          .blockchain-legal-image {
+            margin-top: 30px;
+            margin-bottom: -20px;
+          }
+
+          .fullnode-logo {
+            margin-top: 30px;
+          }
         }
       `}</style>
     </div>
