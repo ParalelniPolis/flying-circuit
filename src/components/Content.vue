@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="content" class="container">
 <!--    <div class="row">-->
 <!--      <div class="offset-by-seven six columns">-->
 <!--        <div class="logo">-->
@@ -38,8 +38,12 @@ export default {
 @import "../styles/normalize.css";
 @import "../styles/skeleton.css";
 
+#content {
+  /*flex: 1 0 auto;*/
+}
+
 .container {
-  margin-top: 33vh;
+  margin-top: 34vh;
 }
 
 .logo {
@@ -47,6 +51,7 @@ export default {
   margin-right: auto;
   text-align: center;
   margin-bottom: 30px;
+  margin-top: -50px;
 }
 
 img {
@@ -63,4 +68,11 @@ h1 {
   font-size: 2.5em;
   text-align: center;
 }
+
+@media (max-width:400px) {
+  .container {
+    margin-top: 16vh;
+  }
+}
+
 </style>

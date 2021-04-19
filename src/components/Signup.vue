@@ -1,14 +1,16 @@
 <template>
   <div id="signup">
-    <div class="row">
-      <div class="offset-by-seven five columns">
-        <input type="email" class="inEmail" value="your@email.pwn">
-      </div>
-    </div>
+<!--    <div class="row">-->
+<!--      <div class="offset-by-seven five columns">-->
+<!--        <input type="email" class="inEmail" value="your@email.pwn">-->
+<!--      </div>-->
+<!--    </div>-->
 
     <div class="row">
       <div class="offset-by-seven five columns center">
-        <input type="button" class="inButton" value="PRESS START">
+        <a href="https://discord.gg/yUBsacmQKN" target="_blank">
+          <input type="button" class="inButton" value="JOIN DISCORD">
+        </a>
       </div>
     </div>
   </div>
@@ -51,10 +53,10 @@ export default {
    border-radius: 0;
    height: 2em;
    font-size: 1.75em;
-   color: #171618FF;
+   color: #111111;
  }
  .inButton:hover,  .inButton:active {
-   background-color: #171618FF;
+   background-color: #111111;
    border: #05cfb9 solid 2px;
    border-radius: 0;
    height: 2em;
