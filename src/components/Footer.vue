@@ -2,15 +2,15 @@
 <div id="footer" class="container">
   <div class="row">
     <div class="credits twelve columns">
-      <span>Featured artwork: Seeking the Soul - by</span>
-      <span><a href="https://twitter.com/armanalipour" target="_blank"> Arman Alipour </a></span>
+      <span>Artwork by</span>
+      <span><a href="https://foundation.app/happygoat" target="_blank"> HappyGoat <span class="hide">Studio</span> </a></span>
     </div>
-    <div class="twttr">
-      <a href="https://twitter.com/pwnfinance" target="_blank">
-        <img src="../assets/twitter.svg" id="a">
-        <img src="../assets/twitter.svg" id="b">
-        <img src="../assets/twitter.svg" id="c">
-      </a>
+    <div class="bottomright">
+        <a href="https://twitter.com/pwnfinance" target="_blank">
+          <img src="../assets/twitter.svg" id="a">
+          <img src="../assets/twitter.svg" id="b">
+          <img src="../assets/twitter.svg" id="c">
+        </a>
     </div>
   </div>
 </div>
@@ -38,6 +38,10 @@ span {
   text-underline: none;
 }
 
+.hide {
+  opacity: 1.3;
+}
+
 a {
   color: #05cfb9;
   text-decoration: none;
@@ -47,7 +51,7 @@ a {
   margin-left: 6px;
 }
 
-.twttr {
+.bottomright {
   padding: 2em;
   position: fixed;
   bottom: 0;
@@ -57,13 +61,25 @@ a {
   margin-bottom: 1em;
   opacity: 0.5;
 }
-
-.twttr img {
+.bottomright div {
+  display: inline;
+  margin-left: 10px;
+}
+.bottomright img {
   margin: 0;
   line-height: 0;
   height: 2em;
   width: 2em;
   position: absolute;
+}
+
+@media (max-width: 400px) {
+  .hide {
+    display: none;
+  }
+  .credits {
+    margin-left: 2px;
+  }
 }
 
 /*Animation*/

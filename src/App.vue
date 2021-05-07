@@ -24,9 +24,10 @@ export default {
 
 <style>
 @font-face {
-  font-family: "Bebas Neue";
-  src: local("BebasNeue"),
-  url(./assets/BebasNeue-Regular.ttf) format("truetype");
+  font-family: "AutoscapeWeb-Regular";
+  src: url("./assets/AutoscapeWeb-Regular.woff") format("woff"),
+       url("./assets/AutoscapeWeb-Regular.woff2") format("woff2"),
+       url("./assets/AutoscapeWeb-Regular.ttf") format("ttf");
 }
 
 html, body {
@@ -42,7 +43,7 @@ body {
 }
 
 #app {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "AutoscapeWeb-Regular", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #05cfb9;

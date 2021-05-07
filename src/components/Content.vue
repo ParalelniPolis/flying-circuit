@@ -1,25 +1,16 @@
 <template>
   <div id="content" class="container">
-<!--    <div class="row">-->
-<!--      <div class="offset-by-seven six columns">-->
-<!--        <div class="logo">-->
-<!--          <img src="../assets/PWN_logo.png">-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-
-
     <div class="row">
       <div class="offset-by-seven five columns">
-        <h1> Secured P2P loans backed by arbitrary collateral </h1>
-      </div>
-<!--      <div class="offset-by-seven five columns">-->
-<!--        <h2> Leverage your digital wealth </h2>-->
-<!--      </div>-->
-      <div class="offset-by-seven five columns">
         <div class="logo">
-          <img src="../assets/PWN_logo.png">
+          <img src="../assets/PWN_logo.svg">
         </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-by-four eight columns">
+        <h1> P2P loans backed by </h1>
+        <h1> arbitrary collateral </h1>
       </div>
     </div>
     <Signup></Signup>
@@ -49,13 +40,14 @@ export default {
 .logo {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  margin-bottom: 30px;
+  text-align: right;
+  margin-bottom: 60px;
   margin-top: -50px;
 }
 
 img {
-  width: 200px;
+  width: 150px;
+  /*height: 5vh;*/
 }
 
 /*h1, h2 {*/
@@ -65,8 +57,9 @@ img {
 
 h1 {
   color: #05cfb9;
-  font-size: 2.5em;
-  text-align: center;
+  font-size: 2.2em;
+  text-align: right;
+  margin-top: -10px;
 }
 
 @media (max-width:400px) {
