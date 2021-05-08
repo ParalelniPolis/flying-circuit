@@ -1,6 +1,8 @@
 {
   "name": "PWN",
-  "version": "0.1.0",
+  "title": "PWN Finance - P2P loans backed by arbitrary collateral",
+  "description": "P2P loans backed by any ERC20, ERC721 & ERC1155 token! Running on Ethereum & Optimism.",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
