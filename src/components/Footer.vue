@@ -1,16 +1,40 @@
 <template>
 <div id="footer" class="container">
+<!--  <div class="row">-->
+<!--    <div class="flex">-->
+
+<!--    </div>-->
+<!--  </div>-->
   <div class="row">
-    <div class="credits twelve columns">
-      <span>Artwork by</span>
-      <span><a href="https://foundation.app/happygoat" target="_blank"> HappyGoat <span class="hide">Studio</span> </a></span>
-    </div>
-    <div class="bottomright">
-        <a href="https://twitter.com/pwnfinance" target="_blank">
-          <img src="../assets/twitter.svg" id="a">
-          <img src="../assets/twitter.svg" id="b">
-          <img src="../assets/twitter.svg" id="c">
+    <div class="twelve columns">
+      <div class="bottomright">
+        <div class="item">
+
+        </div>
+      <span>Featured NFT by </span>
+      <span>
+        <a href="https://foundation.app/happygoat" target="_blank">
+          HappyGoat<span class="hide"> Studio</span>
         </a>
+      </span>
+      <span>
+        //
+      </span>
+      <span>
+        <a href="../../public/PWNWP.pdf">Whitepaper</a>
+      </span>
+      <span>
+        //
+      </span>
+      <span>
+        <a href="https://twitter.com/pwnfinance" target="_blank">
+        <img src="../assets/twitter.svg" id="a">
+        <img src="../assets/twitter.svg" id="b">
+        <img src="../assets/twitter.svg" id="c">
+        </a>
+      </span>
+
+    </div>
     </div>
   </div>
 </div>
@@ -24,15 +48,22 @@ export default {
 
 <style scoped>
 #footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  /*left: 0;*/
-  /*width: 100%;*/
+  width: 100%;
+  margin: 0 auto;
   /*text-align: center;*/
 }
 
+.row {
+  width: 90%;
+  margin: 0 auto;
+
+  text-align: right;
+}
+
 span {
-  opacity: 0.3;
+  opacity: 0.7;
   color: #05cfb9;
   font-style: normal;
   text-underline: none;
@@ -44,32 +75,21 @@ span {
 
 a {
   color: #05cfb9;
-  text-decoration: none;
-}
-
-.credits {
-  margin-left: 6px;
+  /*text-decoration: 1px #05cfb9;*/
 }
 
 .bottomright {
-  padding: 2em;
-  position: fixed;
-  bottom: 0;
-  right: 0;
+  padding-right: 31px;
+  margin-bottom: 1vh;
+  opacity: 0.75;
+}
 
-  margin-right: 1em;
-  margin-bottom: 1em;
-  opacity: 0.5;
-}
-.bottomright div {
-  display: inline;
-  margin-left: 10px;
-}
 .bottomright img {
   margin: 0;
+  margin-left: 10px;
   line-height: 0;
-  height: 2em;
-  width: 2em;
+  height: 21px;
+  width: 21px;
   position: absolute;
 }
 
@@ -77,8 +97,8 @@ a {
   .hide {
     display: none;
   }
-  .credits {
-    margin-left: 2px;
+  .row {
+    width: 85%;
   }
 }
 

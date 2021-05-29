@@ -38,8 +38,9 @@ html, body {
 }
 
 body {
-  /*display: flex;*/
-  /*flex-direction: column;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #app {

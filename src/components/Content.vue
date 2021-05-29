@@ -9,8 +9,8 @@
     </div>
     <div class="row">
       <div class="offset-by-four eight columns">
-        <h1> P2P loans backed by </h1>
-        <h1> arbitrary collateral </h1>
+        <h1> P2P loans backed </h1>
+        <h1> by any token! </h1>
       </div>
     </div>
     <Signup></Signup>
