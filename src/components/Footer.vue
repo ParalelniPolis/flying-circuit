@@ -21,7 +21,7 @@
         //
       </span>
       <span>
-        <a href="../../public/PWNWP.pdf">Whitepaper</a>
+        <a href="https://pwn.finance/PWNWP.pdf">Whitepaper</a>
       </span>
       <span>
         //
