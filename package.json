@@ -1,8 +1,8 @@
 {
-  "name": "PWN",
-  "title": "PWN Finance - P2P loans backed by arbitrary collateral",
-  "description": "P2P loans backed by any ERC20, ERC721 & ERC1155 token! Running on Ethereum & Optimism.",
-  "version": "0.2.0",
+  "name": "FlyingCircuit",
+  "title": "Hackatoshi's Flying Circuit - Roots Hackathon",
+  "description": "Hackatoshi's Flying Circuit is a celebration of hacker mindset. No business, no BS, just fun!",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

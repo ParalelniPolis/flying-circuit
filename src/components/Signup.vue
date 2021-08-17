@@ -3,7 +3,7 @@
       <div class="offset-by-nine three columns">
         <a href="https://discord.gg/yUBsacmQKN" target="_blank">
           <div class="button">
-            <img src="../assets/button.svg">
+<!--            <img src="../assets/button.svg">-->
           </div>
         </a>
       </div>

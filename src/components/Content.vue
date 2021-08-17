@@ -1,16 +1,18 @@
 <template>
   <div id="content" class="container">
-    <div class="row">
-      <div class="offset-by-seven five columns">
+    <div class="top row">
+      <div class="twelve columns">
         <div class="logo">
-          <img src="../assets/PWN_logo.svg">
+          <img src="../assets/hfc-text-color-transparent.png">
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="offset-by-four eight columns">
-        <h1> P2P loans backed </h1>
-        <h1> by any token! </h1>
+      <div class="offset-by-three six columns">
+        <div id="info">
+          <h1> Paralelni Polis, Prague, CZ </h1>
+          <h1> September 24<sup>th</sup> - 26<sup>th</sup> 2021  </h1>
+        </div>
       </div>
     </div>
     <Signup></Signup>
@@ -33,20 +35,33 @@ export default {
   /*flex: 1 0 auto;*/
 }
 
-.container {
-  margin-top: 34vh;
+#info {
+  background-color: black;
+  border: 1px dotted white;
+  padding-top: 2rem;
+  transform: rotate(-4deg);
+  /*width: 450px;*/
+  opacity: 0.8;
+}
+
+.columns {
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+/*.container {*/
+/*  margin-top: 34vh;*/
+/*}*/
+.top {
+  margin-top: 20vh;
 }
 
 .logo {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: right;
   margin-bottom: 60px;
-  margin-top: -50px;
 }
 
 img {
-  width: 150px;
+  width: 80%;
   /*height: 5vh;*/
 }
 
@@ -56,16 +71,12 @@ img {
 /*}*/
 
 h1 {
-  color: #05cfb9;
+  color: #fd0001;
   font-size: 2.2em;
-  text-align: right;
-  margin-top: -10px;
 }
 
 @media (max-width:400px) {
-  .container {
-    margin-top: 16vh;
-  }
+
 }
 
 </style>

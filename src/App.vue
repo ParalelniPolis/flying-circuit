@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-<!--    <video-background :src="require('@/assets/output3.mp4')" style="max-height: 100vh; height: 100vh;">-->
-    <video-background src="/nft.mp4" style="max-height: 100vh; height: 100vh;">
-    <Content></Content>
+    <video-background src="/hfc.mp4" style="max-height: 100vh; height: 100vh;">
+    <Content>
+
+    </Content>
       <Footer></Footer>
     </video-background>
   </div>
@@ -23,12 +24,12 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: "AutoscapeWeb-Regular";
-  src: url("./assets/AutoscapeWeb-Regular.woff") format("woff"),
-       url("./assets/AutoscapeWeb-Regular.woff2") format("woff2"),
-       url("./assets/AutoscapeWeb-Regular.ttf") format("ttf");
-}
+/*@font-face {*/
+/*  font-family: "AutoscapeWeb-Regular";*/
+/*  src: url("./assets/AutoscapeWeb-Regular.woff") format("woff"),*/
+/*       url("./assets/AutoscapeWeb-Regular.woff2") format("woff2"),*/
+/*       url("./assets/AutoscapeWeb-Regular.ttf") format("ttf");*/
+/*}*/
 
 html, body {
   height: 100%;
@@ -44,12 +45,15 @@ body {
 }
 
 #app {
-  font-family: "AutoscapeWeb-Regular", sans-serif;
+  font-family: "Helvetica", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #05cfb9;
+  color: #fdfd01;
   background-color: #111111;
 }
 
+.columns, .column {
+  text-align: justify;
+}
 
 </style>

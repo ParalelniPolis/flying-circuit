@@ -14,7 +14,7 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to a custom domain
-echo 'pwn.finance' > CNAME
+echo 'flyingcircuit.com' > CNAME
 git add CNAME
 git commit -m 'Added CNAME'
 
@@ -22,7 +22,7 @@ git commit -m 'Added CNAME'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:JosefJ/pwn_home.git master:gh-pages
+git push -f git@github.com:ParalelniPolis/flying-circuit.git master:gh-pages
 
 cd -
 bash

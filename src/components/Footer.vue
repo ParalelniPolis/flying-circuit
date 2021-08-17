@@ -11,23 +11,24 @@
         <div class="item">
 
         </div>
-      <span>Featured NFT by </span>
       <span>
-        <a href="https://foundation.app/happygoat" target="_blank">
-          HappyGoat<span class="hide"> Studio</span>
+        <a href="https://paralelnipolis.cz" target="_blank">
+          Paralelni Polis
+        </a>
+      </span>
+        <span>
+        //
+      </span>
+      <span>
+        <a href="mailto:hackatoshi@flyingcircuit.com">
+          Email
         </a>
       </span>
       <span>
         //
       </span>
       <span>
-        <a href="https://pwn.finance/PWN-Whitepaper.pdf">Whitepaper</a>
-      </span>
-      <span>
-        //
-      </span>
-      <span>
-        <a href="https://twitter.com/pwnfinance" target="_blank">
+        <a href="https://twitter.com/hackatoshi" target="_blank">
         <img src="../assets/twitter.svg" id="a">
         <img src="../assets/twitter.svg" id="b">
         <img src="../assets/twitter.svg" id="c">
@@ -50,32 +51,28 @@ export default {
 #footer {
   position: absolute;
   bottom: 0;
+  /*right: 0;*/
   width: 100%;
   margin: 0 auto;
-  /*text-align: center;*/
+  /*text-align: right;*/
 }
 
 .row {
   width: 90%;
   margin: 0 auto;
-
   text-align: right;
 }
 
 span {
   opacity: 0.7;
-  color: #05cfb9;
+  color: #fd0001;
   font-style: normal;
   text-underline: none;
 }
 
-.hide {
-  opacity: 1.3;
-}
-
 a {
-  color: #05cfb9;
-  /*text-decoration: 1px #05cfb9;*/
+  color: #fd0001;
+  text-decoration: none;
 }
 
 .bottomright {
@@ -112,7 +109,7 @@ a {
 }
 
 #c {
-  filter: invert(69%) sepia(35%) saturate(3266%) hue-rotate(125deg) brightness(94%) contrast(96%);
+  filter: invert(13%) sepia(76%) saturate(4913%) hue-rotate(352deg) brightness(120%) contrast(122%);
 }
 
 #a:hover {
