@@ -12,6 +12,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.12",
+    "vue-scroll": "^2.1.13",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {

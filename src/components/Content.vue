@@ -1,82 +1,120 @@
 <template>
   <div id="content" class="container">
-    <div class="top row">
+    <div class="hero row">
       <div class="twelve columns">
-        <div class="logo">
-          <img src="../assets/hfc-text-color-transparent.png">
-        </div>
+        <img id="HFC" src="../assets/HFC21.png">
       </div>
+      <a href="https://cf23uhv4kuq.typeform.com/to/PLHGOPzK" target="_blank">
+        <button id="sign">
+          SIGN UP
+        </button>
+      </a>
     </div>
     <div class="row">
-      <div class="offset-by-three six columns">
-        <div id="info">
-          <h1> Paralelni Polis, Prague, CZ </h1>
-          <h1> September 24<sup>th</sup> - 26<sup>th</sup> 2021  </h1>
-        </div>
-      </div>
+
     </div>
-    <Signup></Signup>
+    <About/>
+    <hr>
+    <Prize/>
+    <hr>
+    <Partners/>
   </div>
+
 </template>
 
 <script>
-import Signup from "@/components/Signup";
+import About from "./About";
+import Prize from "./Prize";
+import Partners from "./Partners";
+
 export default {
-  name: 'Video',
-  components: {Signup},
+  name: 'Content',
+  components: {
+    About,
+    Prize,
+    Partners
+  },methods: {
+
+  }, mounted() {
+    document.getElementsByClassName("videobg-content")[0].addEventListener('scroll', function() {
+      // console.log(this.scrollTop);
+      let contentScroll = this.scrollTop / window.innerHeight ;
+      let blur, sat;
+      if (contentScroll >= 1) {
+        blur = 42;
+        sat = 1
+      } else {
+        blur = contentScroll * 42;
+        sat = contentScroll;
+      }
+      // console.log(blur)
+      document.getElementsByClassName("video-wrapper")[0].setAttribute(
+          "style", "filter: blur(" + blur + "px)"
+      );
+      document.getElementById("HFC").setAttribute(
+          "style", "filter: saturate(" + sat + ")"
+      );
+      document.getElementById("sign").setAttribute(
+          "style", "filter: saturate(" + sat + ")"
+      );
+    });
+  }
 }
+
+
+
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import "../styles/normalize.css";
-@import "../styles/skeleton.css";
 
-#content {
-  /*flex: 1 0 auto;*/
+.container {
+  /*overflow: scroll;*/
 }
 
-#info {
-  background-color: black;
-  border: 1px dotted white;
-  padding-top: 2rem;
-  transform: rotate(-4deg);
-  /*width: 450px;*/
-  opacity: 0.8;
-}
-
-.columns {
+.row {
   text-align: center;
-  text-align: -webkit-center;
 }
-
-/*.container {*/
-/*  margin-top: 34vh;*/
-/*}*/
-.top {
-  margin-top: 20vh;
-}
-
-.logo {
-  margin-bottom: 60px;
-}
-
-img {
+#HFC {
+  filter: saturate(0);
+  margin-bottom: 1vh;
   width: 80%;
-  /*height: 5vh;*/
 }
 
-/*h1, h2 {*/
-/*  text-align: center;*/
-/*  margin-bottom: 0;*/
+.hero {
+  height: 100vh;
+  margin-top: 20vh;
+  position: sticky;
+    top: 20vh;
+  margin-bottom: 80vh;
+}
+
+
+.columns, .column {
+  text-align: center;
+}
+
+/*.video-wrapper{*/
+/*  filter: blur(42px);*/
 /*}*/
 
-h1 {
-  color: #fd0001;
-  font-size: 2.2em;
+button {
+  border: 2px #ff0000 solid;
+  border-radius: 0;
+  width: 200px;
+  background: #000000;
+  color: #ff0000;
+  filter: saturate(0);
+  opacity: 0.5
 }
 
-@media (max-width:400px) {
+button:hover {
+  opacity: 0.99;
+}
 
+@media (min-width:1920px) {
+  #HFC {
+    width: 710px;
+  }
 }
 
 </style>

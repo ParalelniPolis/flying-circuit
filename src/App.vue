@@ -1,10 +1,7 @@
 <template>
-  <div id="app">
-    <video-background src="/hfc.mp4" style="max-height: 100vh; height: 100vh;">
-    <Content>
-
-    </Content>
-      <Footer></Footer>
+  <div id="app" >
+    <video-background src="/hfc.mp4" style="max-height: 100vh; height: 100vh">
+    <Content />
     </video-background>
   </div>
 
@@ -12,18 +9,33 @@
 
 <script>
 import Content from "@/components/Content";
-import Footer from "@/components/Footer";
 
 export default {
   name: 'App',
   components: {
-    Footer,
     Content
+  },
+  data () {
+    return {
+      blur: 10
+    }
+  },
+  methods: {
+  },
+  computes: {
+    // scrollable () {
+    //   return {
+    //     '--blur': "blur("+this.blur+"px)"
+    //   }
+    // }
   }
 }
 </script>
 
 <style>
+@import "./styles/normalize.css";
+@import "./styles/skeleton.css";
+
 /*@font-face {*/
 /*  font-family: "AutoscapeWeb-Regular";*/
 /*  src: url("./assets/AutoscapeWeb-Regular.woff") format("woff"),*/
@@ -48,12 +60,30 @@ body {
   font-family: "Helvetica", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #fdfd01;
+  color: #ffffff;
   background-color: #111111;
+}
+
+.videobg-content {
+  overflow: scroll;
 }
 
 .columns, .column {
   text-align: justify;
+}
+
+/*.video-wrapper {*/
+/*  !*filter: blur(42px); */
+/*}*/
+
+/* Styling */
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
 }
 
 </style>
