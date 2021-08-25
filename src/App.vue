@@ -45,9 +45,12 @@ export default {
 
 html, body {
   height: 100%;
+  width: 100%;
   padding: 0;
   margin: 0;
   background-color: #111111;
+  overflow-x: hidden;
+
 }
 
 body {

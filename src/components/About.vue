@@ -7,6 +7,7 @@
     with status quo.
 <!--    <a> Read the full manifesto... </a>-->
   </p>
+  <hr>
   <h2> Competition tracks </h2>
   <p>
     This year's Flying Circuit focuses on topics such as cloud society and urban hacktivism.

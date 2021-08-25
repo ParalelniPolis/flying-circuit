@@ -17,6 +17,8 @@
     <Prize/>
     <hr>
     <Partners/>
+    <hr>
+    <Contact />
   </div>
 
 </template>
@@ -25,10 +27,12 @@
 import About from "./About";
 import Prize from "./Prize";
 import Partners from "./Partners";
+import Contact from "./Contact";
 
 export default {
   name: 'Content',
   components: {
+    Contact,
     About,
     Prize,
     Partners
