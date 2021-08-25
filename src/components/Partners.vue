@@ -12,7 +12,7 @@
     </a>
   </div>
   <div class="four columns">
-    <a href="https://bordel.cz" target="_blank">
+    <a href="https://bordel.space" target="_blank">
       <img src="../assets/logos/bordel.png">
     </a>
   </div>
