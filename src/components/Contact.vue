@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrpp">
     <div class="row">
       Get in touch over:
       <span>
@@ -42,5 +42,10 @@ img {
   height: 21px;
   width: 21px;
 }
+
+.wrpp {
+  margin-bottom: 20px;
+}
+
 
 </style>

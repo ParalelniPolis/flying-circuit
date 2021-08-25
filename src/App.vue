@@ -49,8 +49,6 @@ html, body {
   padding: 0;
   margin: 0;
   background-color: #111111;
-  overflow-x: hidden;
-
 }
 
 body {
@@ -69,6 +67,8 @@ body {
 
 .videobg-content {
   overflow: scroll;
+  overflow-x: hidden;
+
 }
 
 .columns, .column {
