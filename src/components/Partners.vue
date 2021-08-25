@@ -1,6 +1,6 @@
 <template>
 <div class="row">
-  <h1> Partners </h1>
+  <h1> Organizers </h1>
   <div class="four columns">
     <a href="https://paioneers.cz" target="_blank">
       <img src="../assets/logos/paioneers.png">

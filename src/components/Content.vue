@@ -1,17 +1,16 @@
 <template>
   <div id="content" class="container">
     <div class="hero row">
-      <div class="twelve columns">
+      <div class="twelve columns stick">
         <img id="HFC" src="../assets/HFC21.png">
-      </div>
-      <a href="https://cf23uhv4kuq.typeform.com/to/PLHGOPzK" target="_blank">
-        <button id="sign">
-          SIGN UP
-        </button>
-      </a>
-    </div>
-    <div class="row">
 
+        <a href="https://cf23uhv4kuq.typeform.com/to/PLHGOPzK" target="_blank">
+          <br>
+          <button id="sign">
+            SIGN UP
+          </button>
+        </a>
+      </div>
     </div>
     <About/>
     <hr>
@@ -74,20 +73,25 @@ export default {
 .row {
   text-align: center;
 }
+
 #HFC {
   filter: saturate(0);
   margin-bottom: 1vh;
   width: 80%;
 }
 
-.hero {
-  height: 100vh;
-  margin-top: 20vh;
+.stick {
   position: sticky;
-    top: 20vh;
-  margin-bottom: 80vh;
+  top: 20vh;
+  margin-bottom: 50px;
 }
 
+.hero {
+  height: 120vh;
+  /*display: block;*/
+  /*margin-top: -20vh;*/
+  /*margin-bottom: 120vh;*/
+}
 
 .columns, .column {
   text-align: center;
@@ -114,6 +118,12 @@ button:hover {
 @media (min-width:1920px) {
   #HFC {
     width: 710px;
+  }
+}
+
+@media (max-width:720px) {
+  .hero {
+
   }
 }
 
