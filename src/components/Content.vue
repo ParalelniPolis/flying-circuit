@@ -18,6 +18,14 @@
     <hr>
     <Partners/>
     <hr>
+<!--    <div class="twelve columns">-->
+<!--      <a href="https://cf23uhv4kuq.typeform.com/to/PLHGOPzK" target="_blank">-->
+<!--        <br>-->
+<!--        <button id="sign2">-->
+<!--          SIGN UP-->
+<!--        </button>-->
+<!--      </a>-->
+<!--    </div>-->
     <Contact />
   </div>
 
@@ -108,15 +116,19 @@ export default {
 button {
   border: 2px #ff0000 solid;
   border-radius: 0;
-  width: 200px;
+  width: 250px;
+  font-size: 18px;
   background: #000000;
   color: #ff0000;
   filter: saturate(0);
-  opacity: 0.5
+  /*opacity: 0.5*/
 }
 
 button:hover {
-  opacity: 0.99;
+  opacity: 1;
+  background: #ff0000;
+  color: #000000;
+  border: #000000;
 }
 
 @media (min-width:1920px) {

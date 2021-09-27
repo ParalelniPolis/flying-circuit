@@ -30,7 +30,9 @@ button {
 }
 
 button:hover {
-  opacity: 0.99;
+  opacity: 1;
+  background: #ff0000;
+  color: #000000;
 }
 
 </style>

@@ -36,13 +36,6 @@ export default {
 @import "./styles/normalize.css";
 @import "./styles/skeleton.css";
 
-/*@font-face {*/
-/*  font-family: "AutoscapeWeb-Regular";*/
-/*  src: url("./assets/AutoscapeWeb-Regular.woff") format("woff"),*/
-/*       url("./assets/AutoscapeWeb-Regular.woff2") format("woff2"),*/
-/*       url("./assets/AutoscapeWeb-Regular.ttf") format("ttf");*/
-/*}*/
-
 html, body {
   height: 100%;
   width: 100%;
