@@ -14,7 +14,6 @@
       <span>
       <a href="https://twitter.com/hackatoshi" target="_blank">
 <!--        <img src="../assets/twitter.svg" id="a">-->
-        Twitter
       </a>
       </span>
     </div>
